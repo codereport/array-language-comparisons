@@ -31,3 +31,7 @@ There are several sites that do these kinds of comparisons:
 |Length of Array (Leading Axis)|`≢`|`#`|`≠`|`dim(a)[1]`|`size(a, 1)`|`len(a)`|
 |Shape of Array|`⍴`|`$`|`≢`|`dim(a)`|`size(a)`|`a.shape`|
 |Number of Elements in Array|`×/⍴`|`*/@$`|`×´≢`|`length(a)`|`length(a)`|`a.size`|
+
+### Other Comparisons
+
+1. [Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/identity.md)
