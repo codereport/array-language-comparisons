@@ -2,8 +2,16 @@ This is a collection of idioms and small programs in APL, J, BQN, Julia, R and N
 
 There are several sites that do these kinds of comparisons:
 
+#### General
+
 * [Rosetta Code](http://www.rosettacode.org/wiki/Rosetta_Code)
 * [Programming-Idioms](https://programming-idioms.org/)
+
+#### Array Language Specific
+
+* [BQN-Dyalog Dictionary](https://mlochbaum.github.io/BQN/doc/fromDyalog.html)
+* [BQN-J Dictionary](https://mlochbaum.github.io/BQN/doc/fromJ.html)
+* [J-Dyalog APL Rosetta](http://sigapl.org/_J-Dyalog_APL_Rosetta.html)
 
 ### Language / Library Websites
 
