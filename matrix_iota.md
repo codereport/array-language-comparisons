@@ -4,7 +4,7 @@
 
 ||APL|J|BQN|Julia|NumPy|R|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Iota Matrix|`3 4⍴⍳12`|`i.3 4`|`3‿4⥊↕12`|`reshape(1:12, 3, 4)`|`np.arange(12).reshape(3,4)`|`matrix(1:12, nrow=3)`|
+|Iota Matrix|`3 4⍴⍳12`|`i.3 4`|`3‿4⥊↕12`|`reshape(1:12, 3, 4)`|TLDB|`matrix(1:12, nrow=3)`|
 
 ### APL
 ```apl
