@@ -4,7 +4,7 @@
 
 ||APL|J|BQN|Julia|NumPy|R|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Iota Matrix|`3 4⍴⍳12`|`i.3 4`|`3‿4⥊↕12`|`reshape(1:12, 3, 4)`|TLDB|`matrix(1:12, nrow=3)`|
+|Iota Matrix|`3 4⍴⍳12`|`i.3 4`|`3‿4⥊↕12`|TLDB|TLDB|`matrix(1:12, nrow=3, byrow=TRUE)`|
 
 ### APL
 ```apl
@@ -34,11 +34,11 @@
 
 ### Julia
 ```julia
-julia> reshape(1:12, 3, 4)
-3×4 reshape(::UnitRange{Int32}, 3, 4) with eltype Int32:
- 1  4  7  10
- 2  5  8  11
- 3  6  9  12
+julia> reshape(1:12, 4, 3) |> permutedims
+3×4 Array{Int32,2}:
+ 1   2   3   4
+ 5   6   7   8
+ 9  10  11  12
 ```
 
 ### NumPy
@@ -52,9 +52,9 @@ array([[ 0,  1,  2,  3],
 
 ### R
 ```r
-> matrix(1:12, nrow=3)
+> matrix(1:12, nrow=3, byrow=TRUE)
      [,1] [,2] [,3] [,4]
-[1,]    1    4    7   10
-[2,]    2    5    8   11
-[3,]    3    6    9   12
+[1,]    1    2    3    4
+[2,]    5    6    7    8
+[3,]    9   10   11   12
 ```
