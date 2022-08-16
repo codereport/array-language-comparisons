@@ -21,17 +21,19 @@ There are several sites that do these kinds of comparisons:
 |J|https://www.jsoftware.com/|https://code.jsoftware.com/wiki/NuVoc|
 |BQN|https://mlochbaum.github.io/BQN/|https://mlochbaum.github.io/BQN/doc/index.html|
 |Julia|https://julialang.org/|https://docs.julialang.org/en/v1/|
-|R|https://www.r-project.org/|https://www.rdocumentation.org/|
 |NumPy|https://numpy.org/|https://numpy.org/doc/stable/|
+|R|https://www.r-project.org/|https://www.rdocumentation.org/|
 
 ### Comparisons
 
-||APL|J|BQN|R|Julia|NumPy|
+||APL|J|BQN|Julia|NumPy|R|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Length of Array (Leading Axis)|`≢`|`#`|`≠`|`dim(a)[1]`|`size(a, 1)`|`len(a)`|
-|Shape of Array|`⍴`|`$`|`≢`|`dim(a)`|`size(a)`|`a.shape`|
-|Number of Elements in Array|`×/⍴`|`*/@$`|`×´≢`|`length(a)`|`length(a)`|`a.size`|
+|Index Base|1 (or `⎕IO`)|0|0|1|0|1|
+|Length of Array (Leading Axis)|`≢`|`#`|`≠`|`size(a, 1)`|`len(a)`|`dim(a)[1]`|
+|Shape of Array|`⍴`|`$`|`≢`|`size(a)`|`a.shape`|`dim(a)`|
+|Number of Elements in Array|`×/⍴`|`*/@$`|`×´≢`|`length(a)`|`a.size`|`length(a)`|
 
 ### Other Comparisons
 
-1. [Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/identity.md)
+1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/matrix_identity.md)
+2. [Creating an Iota Matrix](https://github.com/codereport/array-language-comparisons/blob/main/matrix_iota.md)

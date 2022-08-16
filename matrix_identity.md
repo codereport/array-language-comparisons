@@ -2,9 +2,9 @@
 
 ### Summary
 
-||APL|J|BQN|R|Julia|NumPy|
+||APL|J|BQN|Julia|NumPy|R|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Identity Matrix|`∘.=⍨⍳`|`e.@i.`|`=⌜˜↕`|`diag(n)`|TLDB|`np.identity(n, int)`|
+|Identity Matrix|`∘.=⍨⍳`|`e.@i.`|`=⌜˜↕`|TLDB|`np.identity(n, int)`|`diag(n)`|
 
 ### APL
 ```apl
