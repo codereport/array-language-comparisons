@@ -16,18 +16,18 @@ There are several sites that do these kinds of comparisons:
 ### Language / Library Websites
 
 
-||Language|Main Website|Help Website|
+||Language|Main Website|Help / Docs Website|
 |:-:|:-:|:-:|:-:|
-|:green_heart:|Dyalog APL|https://www.dyalog.com/|https://help.dyalog.com/18.2/|
-|:green_heart:|J|https://www.jsoftware.com/|https://code.jsoftware.com/wiki/NuVoc|
-|:green_heart:|BQN|https://mlochbaum.github.io/BQN/|https://mlochbaum.github.io/BQN/doc/index.html|
-|:green_heart:|Q|https://code.kx.com/q/|https://code.kx.com/q/ref/|
-|:blue_heart:|Julia|https://julialang.org/|https://docs.julialang.org/en/v1/|
-|:blue_heart:|NumPy*|https://numpy.org/|https://numpy.org/doc/stable/|
-|:blue_heart:|R|https://www.r-project.org/|https://www.rdocumentation.org/|
-|:purple_heart:|Nial|https://www.nial-array-language.org/|https://www.nial-array-language.org/ndocs/NialDict2.html|
-|:purple_heart:|Futhark|https://futhark-lang.org/|https://futhark-lang.org/docs.html|
-|:purple_heart:|SaC|https://www.sac-home.org/|https://www.sac-home.org/docs:main|
+|:green_heart:|Dyalog APL|[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|
+|:green_heart:|J|[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|
+|:green_heart:|BQN|[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|
+|:green_heart:|Q|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q/ref/)|
+|:blue_heart:|Julia|[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|
+|:blue_heart:|NumPy*|[numpy.org](https://numpy.org/)|[NumPy Docs](https://numpy.org/doc/stable/)|
+|:blue_heart:|R|[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|
+|:purple_heart:|Nial|[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|
+|:purple_heart:|Futhark|[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|
+|:purple_heart:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
