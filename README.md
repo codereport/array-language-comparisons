@@ -21,7 +21,7 @@ There are several sites that do these kinds of comparisons:
 |:green_heart:|Dyalog APL|[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|
 |:green_heart:|J|[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|
 |:green_heart:|BQN|[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|
-|:green_heart:|Q|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q/ref/)|
+|:green_heart:|Q|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|
 |:blue_heart:|Julia|[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|
 |:blue_heart:|NumPy*|[numpy.org](https://numpy.org/)|[NumPy Docs](https://numpy.org/doc/stable/)|
 |:blue_heart:|R|[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|
@@ -36,22 +36,29 @@ There are several sites that do these kinds of comparisons:
 
 ### Comparisons
 
-1. Index Base
-2. Length of Array (Leading Axis)
-3. Shape of Array
-4. Number of Elements in Array
+1. REPL
+2. Index Base
+3. Length of Array (Leading Axis)
+4. Shape of Array
+5. Number of Elements in Array
 
-||1|2|3|4
-|:-:|:-:|:-:|:-:|:-:|
-|APL|1 (or `⎕IO`)|`≢`|`⍴`|`×/⍴`|
-|J|0|`#`|`$`|`*/@$`|
-|BQN|0|`≠`|`≢`|`×´≢`|
-|Q|0|:soon:|:soon:|:soon:|
-|Julia|1|`size(a, 1)`|`size(a)`|`length(a)`|
-|NumPy|0|`len(a)`|`a.shape`|`a.size`|
-|R|1|`dim(a)[1]`|`dim(a)`|`length(a)`|
-|Futhark|:soon:|:soon:|:soon:|:soon:|
-|SaC|:soon:|:soon:|:soon:|:soon:|
+||1|2|3|4|5
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|APL|:green_circle:|1 (or `⎕IO`)|`≢`|`⍴`|`×/⍴`|
+|J|:green_circle:|0|`#`|`$`|`*/@$`|
+|BQN|:green_circle:|0|`≠`|`≢`|`×´≢`|
+|Q|:yellow_circle:|0|`count`|:no_entry_sign:|`count raze`|
+|Julia|:green_circle:|1|`size(a, 1)`|`size(a)`|`length(a)`|
+|NumPy|:green_circle:|0|`len(a)`|`a.shape`|`a.size`|
+|R|:green_circle:|1|`dim(a)[1]`|`dim(a)`|`length(a)`|
+|Nial|:yellow_circle:|1|`first shape`|`shape`|`tally`|
+|Futhark|:yellow_circle:|1|`length`|:no_entry_sign:|`flatten \|> length`|
+|SaC|:no_entry_sign:|:soon:|:soon:|:soon:|:soon:|
+
+:yellow_circle: Means the REPL has limitations
+* **Q** REPL has no HOME, END, or any arrows (CTRL or not)
+* **Nial** REPL has no CTRL left or right arrow
+* **Futhark** REPL has no HOME, END, or DEL
 
 ### Other Comparisons
 
