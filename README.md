@@ -60,6 +60,13 @@ There are several sites that do these kinds of comparisons:
 * **Nial** REPL has no CTRL left or right arrow
 * **Futhark** REPL has no HOME, END, or DEL
 
+If you are using Q, Nial, Futhark or other languages with REPL limitations, you can get around this by invoking with `rlwrap`. On Linux using the Q REPL:
+
+```
+sudo apt install rlwrap
+rlwrap taskset -c 0 ./q
+```
+
 ### Other Comparisons
 
 1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/matrix_identity.md)
