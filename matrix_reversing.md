@@ -2,10 +2,18 @@
 
 ### Summary
 
-||APL|J|BQN|Julia|NumPy|R|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Reverse columns|`⊖`|`\|.`|`⌽`|`reverse(a, dims=1)`|`np.flipud(a)`|`apply(a, 1, rev)`|
-|Reverse rows|`⌽` <br> `⊖⍤1`|`\|."1`|`⌽⎉1`|`reverse(a, dims=2)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|`apply(a, 2, rev)`|
+||Reverse Columns|Reverse Rows|
+|:-:|:-:|:-:|
+|APL|`⊖`|`⌽` <br> `⊖⍤1`|
+|J|`\|.`|`\|."1`|
+|BQN|`⌽`|`⌽⎉1`|
+|Q|`reverse`|:soon:|
+|Julia|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
+|NumPy|`np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
+|R|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
+|Nial|`BYCOLS reverse`|`BYROWS reverse`|
+|Futhark|:soon:|:soon:|
+|SaC|:soon:|:soon:|
 
 ### APL
 ```apl
@@ -159,3 +167,34 @@ array([[2, 1, 0],
 [2,]    4    5    6
 [3,]    1    2    3
 ```
+### Nial
+```nial
+     a := 3 4 reshape count 12
+1  2  3  4
+5  6  7  8
+9 10 11 12
+
+     # Reversing columns
+     BYCOLS reverse a
+9 10 11 12
+5  6  7  8
+1  2  3  4
+
+     # Reversing rows
+     BYROWS reverse a
+ 4  3  2 1
+ 8  7  6 5
+12 11 10 9
+
+```
+
+### Futhark
+:soon:
+```
+TODO
+```
+
+### SaC
+:soon:
+```
+TODO
