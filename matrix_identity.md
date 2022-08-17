@@ -2,9 +2,18 @@
 
 ### Summary
 
-||APL|J|BQN|Julia|NumPy|R|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Identity Matrix|`∘.=⍨⍳`|`e.@i.`|`=⌜˜↕`|TLDB|`np.identity(n, int)`|`diag(n)`|
+||Identity Matrix|
+|:-:|:-:|
+|APL|`∘.=⍨⍳`|
+|J|`e.@i.`|
+|BQN|`=⌜˜↕`|
+|Q|:soon:|
+|Julia|:arrow_down:|
+|NumPy|`np.identity(n, int)`|
+|R|`diag(n)`|
+|Nial|:arrow_down:|
+|Futhark|:soon:|
+|SaC|:soon:|
 
 ### APL
 ```apl
@@ -49,6 +58,12 @@ Essay on [Identity Matrix in J](https://code.jsoftware.com/wiki/Essays/Identity_
             ┘
 ```
 
+### Q
+:soon:
+```sac
+TODO
+```
+
 ### Julia
 ```julia
 function identity(n)
@@ -89,4 +104,31 @@ array([[1, 0, 0, 0, 0],
 [3,]    0    0    1    0    0
 [4,]    0    0    0    1    0
 [5,]    0    0    0    0    1
+```
+
+### Nial
+```
+identity is op n {
+    (count n) OUTER = count n
+}
+
+% Example usage
+     identity(5)
+loooo
+olooo
+ooloo
+ooolo
+ooool
+```
+
+### Futhark
+:soon:
+```
+TODO
+```
+
+### SaC
+:soon:
+```
+TODO
 ```
