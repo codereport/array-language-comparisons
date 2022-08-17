@@ -1,4 +1,4 @@
-## Creating an Iota Matrix
+## Reversing a Matrix Row-wise and Column-wise
 
 ### Summary
 
