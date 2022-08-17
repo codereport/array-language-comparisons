@@ -52,7 +52,7 @@ There are several sites that do these kinds of comparisons:
 |NumPy|:green_circle:|0|`len(a)`|`a.shape`|`a.size`|
 |R|:green_circle:|1|`dim(a)[1]`|`dim(a)`|`length(a)`|
 |Nial|:yellow_circle:|1|`first shape`|`shape`|`tally`|
-|Futhark|:yellow_circle:|1|`length`|:no_entry_sign:|`flatten \|> length`|
+|Futhark|:yellow_circle:|0|`length`|:no_entry_sign:|`flatten \|> length`|
 |SaC|:no_entry_sign:|:soon:|:soon:|:soon:|:soon:|
 
 :yellow_circle: Means the REPL has limitations
