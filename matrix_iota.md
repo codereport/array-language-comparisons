@@ -13,7 +13,7 @@
 |R|`matrix(1:12, nrow=3, byrow=TRUE)`|
 |Nial|`3 4 reshape count 12`|
 |Futhark|:soon:|
-|SaC|:soon:|
+|SaC|`reshape([3,4], iota(12))`|
 
 ### APL
 ```apl
@@ -91,7 +91,19 @@ TODO
 ```
 
 ### SaC
-:soon:
 ```
-TODO
+use StdIO: all;
+use Array: all;
+
+int main() {
+    print(reshape([3,4], iota(12)));
+    return 0;
+}
+
+// Outputs
+Dimension:  2
+Shape    : <  3,  4>
+| 0  1  2  3 | 
+| 4  5  6  7 | 
+| 8  9 10 11 | 
 ```
