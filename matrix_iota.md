@@ -12,7 +12,7 @@
 |NumPy|`np.arange(12).reshape(3,4)`|
 |R|`matrix(1:12, nrow=3, byrow=TRUE)`|
 |Nial|`3 4 reshape count 12`|
-|Futhark|:soon:|
+|Futhark|`unflatten 3 4 (1...12)`|
 |SaC|`reshape([3,4], iota(12))`|
 
 ### APL
@@ -85,9 +85,11 @@ array([[ 0,  1,  2,  3],
 ```
 
 ### Futhark
-:soon:
 ```
-TODO
+> unflatten 3 4 (1...12) 
+[[1i32, 2i32, 3i32, 4i32],
+ [5i32, 6i32, 7i32, 8i32],
+ [9i32, 10i32, 11i32, 12i32]]
 ```
 
 ### SaC
