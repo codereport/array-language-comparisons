@@ -13,7 +13,7 @@
 |R|`diag(n)`|
 |Nial|:arrow_down:|
 |Futhark|:soon:|
-|SaC|:soon:|
+|SaC|:arrow_down:|
 
 ### APL
 ```apl
@@ -128,7 +128,26 @@ TODO
 ```
 
 ### SaC
-:soon:
 ```
-TODO
+use StdIO: all;
+use Array: all;
+
+int[.,.] identity(int n) {
+    arr = genarray([5, 5], 1);
+    return {[i,j] -> where(i == j, arr[[i,j]], 0)};
+}
+
+int main() {
+    print(identity(5));
+    return 0;
+}
+
+// Outputs
+Dimension:  2
+Shape    : <  5,  5>
+| 1  0  0  0  0 | 
+| 0  1  0  0  0 | 
+| 0  0  1  0  0 | 
+| 0  0  0  1  0 | 
+| 0  0  0  0  1 | 
 ```
