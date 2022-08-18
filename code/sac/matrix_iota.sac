@@ -1,0 +1,7 @@
+use StdIO: all;
+use Array: all;
+
+int main() {
+    print(reshape([3,4], iota(12)));
+    return 0;
+}

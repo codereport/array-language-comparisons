@@ -7,13 +7,13 @@
 |APL|`∘.=⍨⍳`|
 |J|`e.@i.`|
 |BQN|`=⌜˜↕`|
-|Q|:soon:|
-|Julia|:arrow_down:|
+|Q|`{(til x) =/: (til x)}`|
+|Julia|:arrow_down::arrow_down:|
 |NumPy|`np.identity(n, int)`|
 |R|`diag(n)`|
-|Nial|:arrow_down:|
-|Futhark|:soon:|
-|SaC|:arrow_down:|
+|Nial|:arrow_down::arrow_down:|
+|Futhark|:arrow_down::arrow_down:|
+|SaC|:arrow_down::arrow_down:|
 
 ### APL
 ```apl
@@ -59,9 +59,16 @@ Essay on [Identity Matrix in J](https://code.jsoftware.com/wiki/Essays/Identity_
 ```
 
 ### Q
-:soon:
-```sac
-TODO
+```q
+identity: {(til x) =/: (til x)}
+
+/ Example usage
+identity 5
+10000b
+01000b
+00100b
+00010b
+00001b
 ```
 
 ### Julia
@@ -122,9 +129,19 @@ ooool
 ```
 
 ### Futhark
-:soon:
-```
-TODO
+[Outer product](https://futhark-lang.org/examples/outer-product.html) in Futhark.
+```fut
+def outer_prod op A B = map (\a -> map (\b -> a `op` b) B) A
+def identity n = outer_product (==) (iota n) (iota n)
+
+-- Example usage
+> identity 5
+[[1i32, 0i32, 0i32, 0i32, 0i32],
+ [0i32, 1i32, 0i32, 0i32, 0i32],
+ [0i32, 0i32, 1i32, 0i32, 0i32],
+ [0i32, 0i32, 0i32, 1i32, 0i32],
+ [0i32, 0i32, 0i32, 0i32, 1i32]]
+
 ```
 
 ### SaC

@@ -7,13 +7,13 @@
 |APL|`⊖`|`⌽` <br> `⊖⍤1`|
 |J|`\|.`|`\|."1`|
 |BQN|`⌽`|`⌽⎉1`|
-|Q|`reverse`|:soon:|
+|Q|`reverse`|`flip reverse flip`|
 |Julia|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
 |NumPy|`np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
 |R|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
 |Nial|`BYCOLS reverse`|`BYROWS reverse`|
-|Futhark|:soon:|:soon:|
-|SaC|:soon:|:soon:|
+|Futhark|`reverse`|`transpose \|> reverse \|> transpose`|
+|SaC|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
 
 ### APL
 ```apl
@@ -87,6 +87,25 @@
   5 4 3  
   8 7 6  
         ┘
+```
+
+### Q
+```q
+> a: 3 4 # til 12
+> a
+0 1 2  3 
+4 5 6  7 
+8 9 10 11
+/ Reversing columns
+> reverse a
+8 9 10 11
+4 5 6  7 
+0 1 2  3 
+/ Reversing rows
+> flip reverse flip a
+3  2  1 0
+7  6  5 4
+11 10 9 8
 ```
 
 ### Julia
@@ -189,12 +208,55 @@ array([[2, 1, 0],
 ```
 
 ### Futhark
-:soon:
-```
-TODO
+```fut
+> def a = unflatten 3 4 (1...12)
+> a
+[[1i32, 2i32, 3i32, 4i32],
+ [5i32, 6i32, 7i32, 8i32],
+ [9i32, 10i32, 11i32, 12i32]]
+-- Reverse columns
+> reverse a
+[[9i32, 10i32, 11i32, 12i32],
+ [5i32, 6i32, 7i32, 8i32],
+ [1i32, 2i32, 3i32, 4i32]]
+-- Reverse rows
+> a |> transpose |> reverse |> transpose
+[[4i32, 3i32, 2i32, 1i32],
+ [8i32, 7i32, 6i32, 5i32],
+ [12i32, 11i32, 10i32, 9i32]]
 ```
 
 ### SaC
-:soon:
 ```
-TODO
+use StdIO: all;
+use Array: all;
+
+int main() {
+    a = reshape([3,4], iota(12));
+    print(a);
+    // Reversing columns
+    print(reverse(a));
+    // Reversing rows
+    print({ [i] -> reverse(a[i])});
+    return 0;
+}
+
+// Outputs
+Dimension:  2
+Shape    : <  3,  4>
+| 0  1  2  3 | 
+| 4  5  6  7 | 
+| 8  9 10 11 | 
+
+Dimension:  2
+Shape    : <  3,  4>
+| 8  9 10 11 | 
+| 4  5  6  7 | 
+| 0  1  2  3 | 
+
+Dimension:  2
+Shape    : <  3,  4>
+| 3  2  1  0 | 
+| 7  6  5  4 | 
+|11 10  9  8 | 
+```

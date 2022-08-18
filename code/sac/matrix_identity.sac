@@ -1,0 +1,12 @@
+use StdIO: all;
+use Array: all;
+
+int[.,.] identity(int n) {
+    arr = genarray([5, 5], 1);
+    return {[i,j] -> where(i == j, arr[[i,j]], 0)};
+}
+
+int main() {
+    print(identity(5));
+    return 0;
+}

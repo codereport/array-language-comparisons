@@ -1,0 +1,10 @@
+use StdIO: all;
+use Array: all;
+
+int main() {
+    a = reshape([3,4], iota(12));
+    print(a);
+    print(reverse(a));
+    print({ [i] -> reverse(a[i])});
+    return 0;
+}

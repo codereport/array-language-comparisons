@@ -1,0 +1,3 @@
+identity is op n {
+    (count n) OUTER = count n
+}
