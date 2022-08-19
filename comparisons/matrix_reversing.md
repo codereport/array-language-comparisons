@@ -12,7 +12,7 @@
 |NumPy|`np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
 |R|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
 |Nial|`BYCOLS reverse`|`BYROWS reverse`|
-|Futhark|`reverse`|`transpose \|> reverse \|> transpose`|
+|Futhark|`reverse`|`map reverse`|
 |SaC|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
 
 ### APL
