@@ -38,22 +38,30 @@ There are several sites that do these kinds of comparisons:
 
 1. REPL
 2. Index Base
-3. Length of Array (Leading Axis)
-4. Shape of Array
-5. Number of Elements in Array
+3. Axis/Rank Model
+   1. `LA` = [Leading Axis](https://aplwiki.com/wiki/Leading_axis_theory)
+   2. `TA` = Trailing Axis
+   3. `AA` = Axis Agnostic
+4. Application Model
+   1. `()` = Parentheses
+   2. `LR` = Left to Right
+   3. `RL` = Right to Left
+5. Length of Array (Leading Axis)
+6. Shape of Array
+7. Number of Elements in Array
 
-||1|2|3|4|5
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|APL|:green_circle:|1 (or `⎕IO`)|`≢`|`⍴`|`×/⍴`|
-|J|:green_circle:|0|`#`|`$`|`*/@$`|
-|BQN|:green_circle:|0|`≠`|`≢`|`×´≢`|
-|Q|:yellow_circle:|0|`count`|:no_entry_sign:|`count raze`|
-|Julia|:green_circle:|1|`size(a, 1)`|`size(a)`|`length(a)`|
-|NumPy|:green_circle:|0|`len(a)`|`a.shape`|`a.size`|
-|R|:green_circle:|1|`dim(a)[1]`|`dim(a)`|`length(a)`|
-|Nial|:yellow_circle:|0|`first shape`|`shape`|`tally`|
-|Futhark|:yellow_circle:|0|`length`|:no_entry_sign:|`flatten \|> length`|
-|SaC|:no_entry_sign:|0|`shape(a)[0]`|`shape(a)`|`prod(shape(a))`|
+||1|2|3|4|5|6|7
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|APL|:green_circle:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|`≢`|`⍴`|`×/⍴`|
+|J|:green_circle:|0|`LA`|`RL`|`#`|`$`|`*/@$`|
+|BQN|:green_circle:|0|`LA`|`RL`|`≠`|`≢`|`×´≢`|
+|Q|:yellow_circle:|0|:no_entry_sign:|`RL`|`count`|:no_entry_sign:|`count raze`|
+|Julia|:green_circle:|1|`AA`|`()`|`size(a, 1)`|`size(a)`|`length(a)`|
+|NumPy|:green_circle:|0|`AA`|`()`|`len(a)`|`a.shape`|`a.size`|
+|R|:green_circle:|1|`AA`|`()`|`dim(a)[1]`|`dim(a)`|`length(a)`|
+|Nial|:yellow_circle:|0|`AA`|`LR`|`first shape`|`shape`|`tally`|
+|Futhark|:yellow_circle:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|`flatten \|> length`|
+|SaC|:no_entry_sign:|0|`LA`|`()`|`shape(a)[0]`|`shape(a)`|`prod(shape(a))`|
 
 :yellow_circle: Means the REPL has limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)

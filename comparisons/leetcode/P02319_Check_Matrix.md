@@ -13,4 +13,4 @@
 |R|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.r)|
 |Nial|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.nial)|
 |Futhark|:soon:|
-|SaC|:soon:|
+|SaC|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.sac)|

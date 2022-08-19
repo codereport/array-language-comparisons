@@ -220,7 +220,7 @@ array([[2, 1, 0],
  [5i32, 6i32, 7i32, 8i32],
  [1i32, 2i32, 3i32, 4i32]]
 -- Reverse rows
-> a |> transpose |> reverse |> transpose
+> map reverse a
 [[4i32, 3i32, 2i32, 1i32],
  [8i32, 7i32, 6i32, 5i32],
  [12i32, 11i32, 10i32, 9i32]]

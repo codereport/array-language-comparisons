@@ -1,0 +1,15 @@
+use StdIO: all;
+use Array: all;
+
+bool check_matrix(int[.,.] grid) {
+    n    = shape(grid)[0];
+    arr  = genarray([n, n], 1);
+    xmat = {[i,j] -> where(i == j || (n-i-1) == j, arr[[i,j]], 0)};
+    return match(xmat, min(grid, 1));
+}
+
+int main() {
+    print(check_matrix(reshape([4,4], [2,0,0,1,0,3,1,0,0,5,2,0,4,0,0,2]))); // true
+    print(check_matrix(reshape([3,3], [5,7,0,0,3,1,0,5,0])));               // false
+    return 0;
+}
