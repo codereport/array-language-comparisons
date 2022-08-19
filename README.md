@@ -69,6 +69,6 @@ rlwrap taskset -c 0 ./q
 
 ### Other Comparisons
 
-1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/matrix_identity.md)
-2. [Creating an Iota Matrix](https://github.com/codereport/array-language-comparisons/blob/main/matrix_iota.md)
-3. [Reversing a Matrix Row-wise and Column-wise](https://github.com/codereport/array-language-comparisons/blob/main/matrix_reversing.md)
+1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_identity.md)
+2. [Creating an Iota Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_iota.md)
+3. [Reversing a Matrix Row-wise and Column-wise](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_reversing.md)
