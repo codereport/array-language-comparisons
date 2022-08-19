@@ -66,9 +66,14 @@ If you are using Q, Nial, Futhark or other languages with REPL limitations, you 
 sudo apt install rlwrap
 rlwrap taskset -c 0 ./q
 ```
+Note that even when using `rlwrap`, some of the limitations will remain (such as CTRL + arrows).
 
 ### Other Comparisons
 
 1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_identity.md)
 2. [Creating an Iota Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_iota.md)
 3. [Reversing a Matrix Row-wise and Column-wise](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_reversing.md)
+
+### Leetcode Problems
+
+1. [P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P02319_Check_Matrix.md)
