@@ -1,4 +1,4 @@
-This is a collection of idioms and small programs in APL, J, BQN, Julia, R and NumPy.
+This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumPy, Nial, Futhark & SaC.
 
 There are several sites that do these kinds of comparisons:
 
