@@ -19,7 +19,7 @@ There are several sites that do these kinds of comparisons:
 ||Language|Main Website|Help / Docs|Online REPL|
 |:-:|:-:|:-:|:-:|:-:|
 |:green_heart:|Dyalog APL|[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|[TryAPL](https://tryapl.org/)|
-|:green_heart:|J|[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|[J Playground](https://jsoftware.github.io/j-playground/bin/html/index.html)|
+|:green_heart:|J|[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|[J Playground](https://jsoftware.github.io/j-playground/bin/html2/#)|
 |:green_heart:|BQN|[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|[BQNPAD](https://bqnpad.mechanize.systems/)|
 |:green_heart:|Q|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|:no_entry_sign:|
 |:blue_heart:|Julia|[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|[Replit](https://julialang.org/learning/tryjulia/)|
