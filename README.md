@@ -84,4 +84,5 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 
 ### Leetcode Problems
 
-1. [P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P02319_Check_Matrix.md)
+1. [P00485 - MCO (Max Consecutive Ones)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00485_MCO.md)
+2. [P02319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P02319_Check_Matrix.md)
