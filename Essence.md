@@ -14,3 +14,18 @@
 |Nial|Transformers|:green_circle:|`REDUCE`|:green_circle:|`ACCUMULATE`|:green_circle:|`OUTER`|
 |Futhark|Functions<br>SOAC|:green_circle:|`foldl/r`<br>`reduce(_comm)`|:green_circle:|`scan`|:yellow_circle:|`outer_product`|
 |SaC||:red_circle:|-|:red_circle:|-|:red_circle:|-|
+
+### 2. Language Features
+
+||Booleans = 0 & 1|
+|:-:|:-:|
+|APL|:green_circle:|
+|J|:green_circle:|
+|BQN|:green_circle:|
+|Q|:green_circle:|
+|Julia|:yellow_circle:|
+|NumPy|:yellow_circle:|
+|R|:yellow_circle:|
+|Nial|:green_circle:|
+|Futhark|:red_circle:|
+|SaC|:red_circle:|
