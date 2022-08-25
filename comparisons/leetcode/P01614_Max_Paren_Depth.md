@@ -11,6 +11,6 @@
 |Julia|:soon:||
 |NumPy|:soon:||
 |R|:soon:||
-|Nial|:soon:||
+|Nial|`MAX ACCUMULATE + BYCOLS - '()' OUTER = x`||
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.fut)|
 |SaC|:soon:||
