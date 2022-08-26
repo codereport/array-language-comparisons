@@ -1,0 +1,13 @@
+use StdIO: all;
+use Array: all;
+
+int max_wealth(int[.,.] accounts) {
+    return maxval({ [i] -> sum(accounts[i])});
+}
+
+int main() {
+    print(max_wealth(reshape([2,3], [1,2,3,3,2,1])));       // 6
+    print(max_wealth(reshape([3,2], [1,3,7,3,3,5])));       // 10
+    print(max_wealth(reshape([3,3], [2,8,7,7,1,3,1,9,5]))); // 17
+    return 0;
+}
