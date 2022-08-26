@@ -17,15 +17,15 @@
 
 ### 2. Language Features
 
-||Booleans = 0 & 1|
-|:-:|:-:|
-|APL|:green_circle:|
-|J|:green_circle:|
-|BQN|:green_circle:|
-|Q|:green_circle:|
-|Julia|:yellow_circle:|
-|NumPy|:yellow_circle:|
-|R|:yellow_circle:|
-|Nial|:green_circle:|
-|Futhark|:red_circle:|
-|SaC|:red_circle:|
+||Booleans = 0 & 1|Strings are Character Arrays|
+|:-:|:-:|:-:|
+|APL|:green_circle:|:green_circle:|
+|J|:green_circle:|:green_circle:|
+|BQN|:green_circle:|:green_circle:|
+|Q|:green_circle:|:green_circle:|
+|Julia|:yellow_circle:|:red_circle:|
+|NumPy|:yellow_circle:|:red_circle:|
+|R|:yellow_circle:|:red_circle:|
+|Nial|:green_circle:|:green_circle:|
+|Futhark|:red_circle:|:green_circle:|
+|SaC|:red_circle:|:red_circle:|
