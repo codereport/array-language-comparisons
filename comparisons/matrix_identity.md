@@ -119,7 +119,7 @@ identity is op n {
     (count n) OUTER = count n
 }
 
-% Example usage
+% Example usage ;
      identity(5)
 loooo
 olooo
