@@ -1,4 +1,4 @@
-## P1351 - [Counted Negative Numbers](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+## P1351 - [Count Negative Numbers](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 * [YouTube Solution Video](https://www.youtube.com/watch?v=MKb4WD6mioE)
 

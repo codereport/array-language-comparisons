@@ -1,4 +1,4 @@
-## P1672 - [Richest Customer Wealther](https://leetcode.com/problems/richest-customer-wealth/)
+## P1672 - [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 * [YouTube Solution Video](https://www.youtube.com/watch?v=MKb4WD6mioE)
 
