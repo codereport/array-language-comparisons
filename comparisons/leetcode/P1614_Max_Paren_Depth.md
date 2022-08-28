@@ -1,5 +1,8 @@
 ## P01614 - [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)
 
+* [YouTube Solution Video](https://www.youtube.com/watch?v=zrOIQEN3Wkk)
+* [Follow Up YouTube Solution Video](https://www.youtube.com/watch?v=6-mk6OpcUdM)
+
 ### Summary
 
 ||Solution|Link|
