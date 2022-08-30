@@ -5,7 +5,7 @@
 ||Solution|Link|
 |:-:|:-:|:-:|
 |APL|`checkMatrix ← {(1⌊⍵)≡(⊖⌈⊢)∘.=⍨⍳≢⍵}`|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.apl)|
-|J|`checkMatrix =.{{ (1<.y)-:(\|.>.])=/~i.#y }}`|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.ijs)|
+|J|`checkMatrix =. {{ (1<.y)-:(\|.>.])=/~i.#y }}`|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.ijs)|
 |BQN|`CheckMatrix ← {(1⌊𝕩)≡⌽⊸⌈=⌜˜↕≠𝕩}`|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.bqn)|
 |Q|:soon:|
 |Julia|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.jl)|
