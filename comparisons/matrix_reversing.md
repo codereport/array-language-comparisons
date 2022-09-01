@@ -6,7 +6,7 @@
 |:-:|:-:|:-:|
 |APL|`⊖`|`⌽` <br> `⊖⍤1`|
 |J|`\|.`|`\|."1`|
-|BQN|`⌽`|`⌽⎉1`|
+|BQN|`⌽`|`⌽˘`<br>`⌽⎉1`|
 |Q|`reverse`|`flip reverse flip`|
 |Julia|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
 |NumPy|`np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
