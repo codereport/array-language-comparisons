@@ -52,18 +52,18 @@ There are several sites that do these kinds of comparisons:
 
 ||1|2|3|4|5|6|7
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|APL|:green_circle:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|`≢`|`⍴`|`×/⍴`|
-|J|:green_circle:|0|`LA`|`RL`|`#`|`$`|`*/@$`|
-|BQN|:green_circle:|0|`LA`|`RL`|`≠`|`≢`|`×´≢`|
-|Q|:yellow_circle:|0|:no_entry_sign:|`RL`|`count`|:no_entry_sign:|`count raze`|
-|Julia|:green_circle:|1|`AA`|`()`|`size(a, 1)`|`size(a)`|`length(a)`|
-|NumPy|:green_circle:|0|`AA`|`()`|`len(a)`|`a.shape`|`a.size`|
-|R|:green_circle:|1|`AA`|`()`|`dim(a)[1]`|`dim(a)`|`length(a)`|
-|Nial|:yellow_circle:|0|`AA`|`LR`|`first shape`|`shape`|`tally`|
-|Futhark|:yellow_circle:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|`flatten \|> length`|
+|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|`≢`|`⍴`|`×/⍴`|
+|J|:green_heart:|0|`LA`|`RL`|`#`|`$`|`*/@$`|
+|BQN|:green_heart:|0|`LA`|`RL`|`≠`|`≢`|`×´≢`|
+|Q|:yellow_heart:|0|:no_entry_sign:|`RL`|`count`|:no_entry_sign:|`count raze`|
+|Julia|:green_heart:|1|`AA`|`()`|`size(a, 1)`|`size(a)`|`length(a)`|
+|NumPy|:green_heart:|0|`AA`|`()`|`len(a)`|`a.shape`|`a.size`|
+|R|:green_heart:|1|`AA`|`()`|`dim(a)[1]`|`dim(a)`|`length(a)`|
+|Nial|:yellow_heart:|0|`AA`|`LR`|`first shape`|`shape`|`tally`|
+|Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|`flatten \|> length`|
 |SaC|:no_entry_sign:|0|`LA`|`()`|`shape(a)[0]`|`shape(a)`|`prod(shape(a))`|
 
-:yellow_circle: Means the REPL has limitations
+:yellow_heart: Means the REPL has limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)
 * **Nial** REPL has no CTRL left or right arrow
 * **Futhark** REPL has no HOME, END, or DEL
@@ -84,13 +84,13 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 
 ### Leetcode Problems
 
-1. :yellow_circle: [P0485 - MCO (Max Consecutive Ones)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0485_MCO.md)
-2. :green_circle: :video_camera: [P1351 - Count Negatives](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1351_Count_Negatives.md)
-3. :yellow_circle: :video_camera: [P1614 - Maximum Nesting Depth of the Parentheses](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1614_Max_Paren_Depth.md)
-4. :green_circle: :video_camera: [P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)
-5. :yellow_circle: [P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)
+1. :yellow_heart: [P0485 - MCO (Max Consecutive Ones)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0485_MCO.md)
+2. :green_heart: :video_camera: [P1351 - Count Negatives](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1351_Count_Negatives.md)
+3. :yellow_heart: :video_camera: [P1614 - Maximum Nesting Depth of the Parentheses](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1614_Max_Paren_Depth.md)
+4. :green_heart: :video_camera: [P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)
+5. :yellow_heart: [P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)
 
-* :green_circle: = All solutions complete
-* :yellow_circle: = Some solutions missing
+* :green_heart: = All solutions complete
+* :yellow_heart: = Some solutions missing
 * :video_camera: = YouTube Video
 
