@@ -13,7 +13,7 @@
 |R|Functions|:green_heart:|`Reduce`|:green_heart:|`Reduce(accumulate=TRUE)`|:green_heart:|`outer`|
 |Nial|Transformers|:green_heart:|`REDUCE`|:green_heart:|`ACCUMULATE`|:green_heart:|`OUTER`|
 |Futhark|Functions<br>SOAC|:green_heart:|`foldl/r`<br>`reduce(_comm)`|:green_heart:|`scan`|:yellow_heart:|`outer_product`|
-|SaC||:red_heart:|-|:red_heart:|-|:red_heart:|-|
+|SaC||:heart:|-|:heart:|-|:heart:|-|
 
 ### 2. Language Features
 
@@ -23,9 +23,9 @@
 |J|:green_heart:|:green_heart:|
 |BQN|:green_heart:|:green_heart:|
 |Q|:green_heart:|:green_heart:|
-|Julia|:yellow_heart:|:red_heart:|
-|NumPy|:yellow_heart:|:red_heart:|
-|R|:yellow_heart:|:red_heart:|
+|Julia|:yellow_heart:|:heart:|
+|NumPy|:yellow_heart:|:heart:|
+|R|:yellow_heart:|:heart:|
 |Nial|:green_heart:|:green_heart:|
-|Futhark|:red_heart:|:green_heart:|
-|SaC|:red_heart:|:red_heart:|
+|Futhark|:heart:|:green_heart:|
+|SaC|:heart:|:heart:|
