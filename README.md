@@ -63,7 +63,7 @@ There are several sites that do these kinds of comparisons:
 |Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|`flatten \|> length`|
 |SaC|:no_entry_sign:|0|`LA`|`()`|`shape(a)[0]`|`shape(a)`|`prod(shape(a))`|
 
-:yellow_heart: Means the REPL has limitations
+:yellow_heart: Means the REPL has certain limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)
 * **Nial** REPL has no CTRL left or right arrow
 * **Futhark** REPL has no HOME, END, or DEL
