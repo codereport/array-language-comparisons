@@ -12,6 +12,7 @@ There are several sites that do these kinds of comparisons:
 * [BQN-Dyalog Dictionary](https://mlochbaum.github.io/BQN/doc/fromDyalog.html)
 * [BQN-J Dictionary](https://mlochbaum.github.io/BQN/doc/fromJ.html)
 * [J-Dyalog APL Rosetta](http://sigapl.org/_J-Dyalog_APL_Rosetta.html)
+* [Q-APL Dictionary](https://github.com/codereport/The_Q_Programming_Language/blob/master/Q-Built-in-Functions.md)
 
 ### Language / Library Websites
 
