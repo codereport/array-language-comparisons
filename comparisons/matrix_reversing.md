@@ -9,7 +9,7 @@
 |BQN|`⌽⌾⥊`|`⌽`|`⌽˘`<br>`⌽⎉1`|
 |Q|deshape, reverse, reshape|`reverse`|`reverse each`|
 |Julia|`reverse(a)` <br> `reverse(a, dims=:)`|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
-|NumPy|`np.flip(a)` <br> `np.flip(a, None`)|`np.flip(a, 0)` <br> `np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
+|NumPy|`np.flip(a)` <br> `np.flip(a, None)`|`np.flip(a, 0)` <br> `np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
 |R|reverse, reshape|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
 |Nial|`reverse`|`BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)`|`BYROWS reverse` <br> `1 RANK reverse`|
 |Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
