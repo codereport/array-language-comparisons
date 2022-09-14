@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/36027403/190033537-d9337404-e1f5-49dd-88b9-5824f4c9998e.png)
+
+[Original Tweet](https://twitter.com/code_report/status/1569808096654163969)
+
 ## The Essence of Array Programming
 
 ### 1. "Higher Order Functions"
