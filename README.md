@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/36027403/190033661-c153b899-c710-4a34-a9f0-f7310f9cc223.png)
+
+
 This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumPy, Nial, Futhark & SaC.
 
 There are several sites that do these kinds of comparisons:
