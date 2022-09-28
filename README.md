@@ -97,4 +97,3 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing
 * :video_camera: = YouTube Video
-
