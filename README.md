@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/36027403/190033661-c153b899-c710-4a34-a9f0-f7310f9cc223.png)
+![image](https://user-images.githubusercontent.com/36027403/193055257-a1fd60cb-89a6-42d5-8f49-5d164bfab406.png)
 
 
 This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumPy, Nial, Futhark & SaC.
