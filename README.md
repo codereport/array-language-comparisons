@@ -1,5 +1,19 @@
-![image](https://user-images.githubusercontent.com/36027403/193055974-8d8008a2-a1e6-4bd4-8ecc-7624fa611f25.png)
+# <p align="center">Array Language Comparisons</p>
 
+<p align="center">
+    <a href="https://github.com/codereport/array-language-comparisons/issues" alt="contributions welcome">
+        <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" /></a>
+    <a href="https://lbesson.mit-license.org/" alt="MIT license">
+        <img src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>        
+    <a href="https://github.com/codereport?tab=followers" alt="GitHub followers">
+        <img src="https://img.shields.io/github/followers/codereport.svg?style=social&label=Follow" /></a>
+    <a href="https://GitHub.com/codereport/array-language-comparisons/stargazers/" alt="GitHub stars">
+        <img src="https://img.shields.io/github/stars/codereport/array-language-comparisons.svg?style=social&label=Star" /></a>
+    <a href="https://twitter.com/code_report" alt="Twitter">
+        <img src="https://img.shields.io/twitter/follow/code_report.svg?style=social&label=@code_report" /></a>
+</p>
+
+![image](https://user-images.githubusercontent.com/36027403/193055974-8d8008a2-a1e6-4bd4-8ecc-7624fa611f25.png)
 
 This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumPy, Nial, Futhark & SaC.
 
