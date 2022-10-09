@@ -1,5 +1,7 @@
 ## P2319 - [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)
 
+* [YouTube Solution Video](https://www.youtube.com/watch?v=8ynsN4nJxzU)
+
 ### Summary
 
 ||Solution|Link|
@@ -12,5 +14,5 @@
 |NumPy|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.py)|
 |R|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.r)|
 |Nial|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.nial)|
-|Futhark|:soon:|
+|Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.fut)|
 |SaC|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.sac)|
