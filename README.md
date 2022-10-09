@@ -106,7 +106,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |:-:|:-:|:-|:-:|
 |1|:yellow_heart:|[P0485 - MCO (Max Consecutive Ones)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0485_MCO.md)|-|
 |2|:green_heart:|[P1351 - Count Negatives](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1351_Count_Negatives.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
-|3|:yellow_heart:|[P1614 - Maximum Nesting Depth of the Parentheses](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1614_Max_Paren_Depth.md)|[YouTube Solution](https://www.youtube.com/watch?v=zrOIQEN3Wkk)<br>[YouTube Solution II](https://www.youtube.com/watch?v=6-mk6OpcUdM)|
+|3|:yellow_heart:|[P1614 - Maximum Nesting Depth of the Parentheses](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1614_Max_Paren_Depth.md)|[YouTube Solution](https://www.youtube.com/watch?v=zrOIQEN3Wkk) \| [II](https://www.youtube.com/watch?v=6-mk6OpcUdM)|
 |4|:green_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
 |5|:green_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
 
