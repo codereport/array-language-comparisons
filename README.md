@@ -45,12 +45,14 @@ There are several sites that do these kinds of comparisons:
 |:blue_heart:|R|[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
 |:purple_heart:|Nial|[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
 |:purple_heart:|Futhark|[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
-|:purple_heart:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
+|:purple_heart::heartpulse:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
+|:heartpulse:|ArrayFire*|[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
 * :blue_heart: Main (Non-APL-Family) Array Languages
 * :purple_heart: Fringe Array Languages
+* :heartpulse: Array Compiler Backends
 
 ### Comparisons
 
@@ -80,6 +82,7 @@ There are several sites that do these kinds of comparisons:
 |Nial|:yellow_heart:|0|`AA`|`LR`|`first shape`|`shape`|`tally`|
 |Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|`flatten \|> length`|
 |SaC|:no_entry_sign:|0|`LA`|`()`|`shape(a)[0]`|`shape(a)`|`prod(shape(a))`|
+|ArrayFire|:no_entry_sign:|0|`LA`|`()`|`a.dims()[0]`|`a.dims()`*|`a.elements()`|
 
 :yellow_heart: Means the REPL has certain limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)

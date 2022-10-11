@@ -14,6 +14,7 @@
 |Nial|`reverse`|`BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)`|`BYROWS reverse` <br> `1 RANK reverse`|
 |Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
 |SaC|flatten, reverse, reshape|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
+|ArrayFire|flat, flip, moddims|`flip(a, 0)`|`flip(a, 1)`|
 
 ### APL
 ```apl
