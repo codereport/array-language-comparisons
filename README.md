@@ -1,4 +1,4 @@
-# <p align="center">Array Language Comparisons</p>
+# <p align="center">Array Language & Library Comparisons</p>
 
 <p align="center">
     <a href="https://github.com/codereport/array-language-comparisons/issues" alt="contributions welcome">
