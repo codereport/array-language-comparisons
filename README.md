@@ -30,9 +30,11 @@ There are several sites that do these kinds of comparisons:
 * [BQN-J Dictionary](https://mlochbaum.github.io/BQN/doc/fromJ.html)
 * [J-Dyalog APL Rosetta](http://sigapl.org/_J-Dyalog_APL_Rosetta.html)
 * [Q-APL Dictionary](https://github.com/codereport/The_Q_Programming_Language/blob/master/Q-Built-in-Functions.md)
+* [ArrayFire-MATLAB-NumPy](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_matlab_python.md)
+* [ArrayFire-Eigen](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_eigen.md)
+* [ArrayFire-Numpy](https://arrayfire.com/wp-content/uploads/2012/05/Matrix_WP_ArrayFire_2017.pdf)
 
 ### Language / Library Websites
-
 
 ||Language|Main Website|Help / Docs|Online REPL|
 |:-:|:-:|:-:|:-:|:-:|
@@ -47,12 +49,14 @@ There are several sites that do these kinds of comparisons:
 |:purple_heart:|Futhark|[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
 |:purple_heart::heartpulse:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
 |:heartpulse:|ArrayFire*|[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
+|:heartpulse:|ATen*|-|[ATen Docs](https://pytorch.org/cppdocs/#aten)|:no_entry_sign:|
+|:heartpulse:|Eigen*|[eigen.tuxfamily.org](https://eigen.tuxfamily.org/)|[Eigen Dox](https://eigen.tuxfamily.org/dox/)|[Godbolt](https://godbolt.org/)|
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
 * :blue_heart: Main (Non-APL-Family) Array Languages
 * :purple_heart: Fringe Array Languages
-* :heartpulse: Array Compiler Backends
+* :heartpulse: Array Compiler Backends / Array Libraries
 
 ### Comparisons
 
