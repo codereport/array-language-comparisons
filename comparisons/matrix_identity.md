@@ -14,6 +14,7 @@
 |Nial|:arrow_down::arrow_down:|
 |Futhark|:arrow_down::arrow_down:|
 |SaC|:arrow_down::arrow_down:|
+|ArrayFire|`identity(dim4(n, n), s32)`|
 
 ### APL
 ```apl
