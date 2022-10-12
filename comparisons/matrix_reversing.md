@@ -1,4 +1,4 @@
-## Reversing a Matrix Row-wise and Column-wise
+## Reversing a Matrix Row-wise, Column-wise and in Memory
 
 ### Summary
 

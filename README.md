@@ -105,7 +105,8 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 
 1. [Creating an Identity Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_identity.md)
 2. [Creating an Iota Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_iota.md)
-3. [Reversing a Matrix Row-wise and Column-wise](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_reversing.md)
+3. [Reversing a Matrix Row-wise, Column-wise and in Memory](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_reversing.md)
+4. [Summing a Matrix Row-wise, Column-wise and Down to a Scalar](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_summing.md)
 
 ### Leetcode Problems
 

@@ -1,0 +1,11 @@
+use StdIO: all;
+use Array: all;
+
+int main() {
+    a = reshape([3,3], iota(9));
+    print(a);
+    print(sum(a));
+    print({ [i] -> sum(transpose(a)[i]) });
+    print({ [i] -> sum(a[i]) });
+    return 0;
+}
