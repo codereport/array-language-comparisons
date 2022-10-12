@@ -18,6 +18,7 @@
 |Nial|Transformers|:green_heart:|`REDUCE`|:green_heart:|`ACCUMULATE`|:green_heart:|`OUTER`|
 |Futhark|Functions<br>SOAC|:green_heart:|`foldl/r`<br>`reduce(_comm)`|:green_heart:|`scan`|:yellow_heart:|`outer_product`|
 |SaC||:heart:|-|:heart:|-|:heart:|-|
+|ArrayFire||:heart:|-|:heart:|-|:heart:|-|
 
 ### 2. Language Features
 
@@ -33,3 +34,4 @@
 |Nial|:green_heart:|:green_heart:|
 |Futhark|:heart:|:green_heart:|
 |SaC|:heart:|:heart:|
+|ArrayFire|:heart:|:heart:|
