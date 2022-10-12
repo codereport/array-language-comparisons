@@ -16,3 +16,4 @@
 |Nial|`sum(x < 0)`||
 |Futhark|`flatten \|> map (<0) \|> map to_i32 \|> i32.sum`||
 |SaC|`sum(toi(x < 0))`||
+|ArrayFire|`sum(flat(0 > grid))`|
