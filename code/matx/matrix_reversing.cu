@@ -11,11 +11,13 @@ auto main() -> int {
   // Row reversal
   auto t_row_rev = matx::make_tensor<int32_t>({3, 4});
   (t_row_rev = matx::fliplr(t)).run();
+  // (t_row_rev = matx::reverse<1>(t)).run(); <- same as
   t_row_rev.Print();
 
   // Column reversal
   auto t_col_rev = matx::make_tensor<int32_t>({3, 4});
   (t_col_rev = matx::flipud(t)).run();
+  // (t_col_rev = matx::reverse<0>(t)).run(); <- same as
   t_col_rev.Print();
 
   // Reverse in memory
