@@ -15,6 +15,7 @@
 |Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
 |SaC|flatten, reverse, reshape|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
 |ArrayFire|flat, flip, moddims|`flip(a, 0)`|`flip(a, 1)`|
+|MatX|flatten, reverse, reshape|:down_arrow:
 
 ### APL
 ```apl
@@ -267,4 +268,94 @@ Shape    : <  3,  4>
 | 3  2  1  0 | 
 | 7  6  5  4 | 
 |11 10  9  8 | 
+```
+
+### ArrayFire
+```cpp
+#include <arrayfire.h>
+
+auto main() -> int {
+
+  af::array arr = af::iota(af::dim4(3, 4));
+  af::print("Original matrix", arr);
+  af::print("Reversing columns",   af::flip(arr, 0));
+  af::print("Reversing rows",      af::flip(arr, 1));
+  af::print("Reversing in memory", af::moddims(af::flip(af::flat(arr), 0), af::dim4(3, 4)));
+
+  return 0;
+}
+
+// Outputs
+Original matrix
+[3 4 1 1]
+    0.0000     3.0000     6.0000     9.0000
+    1.0000     4.0000     7.0000    10.0000
+    2.0000     5.0000     8.0000    11.0000
+
+Reversing columns
+[3 4 1 1]
+    2.0000     5.0000     8.0000    11.0000
+    1.0000     4.0000     7.0000    10.0000
+    0.0000     3.0000     6.0000     9.0000
+
+Reversing rows
+[3 4 1 1]
+    9.0000     6.0000     3.0000     0.0000
+   10.0000     7.0000     4.0000     1.0000
+   11.0000     8.0000     5.0000     2.0000
+
+Reversing in memory
+[3 4 1 1]
+   11.0000     8.0000     5.0000     2.0000
+   10.0000     7.0000     4.0000     1.0000
+    9.0000     6.0000     3.0000     0.0000
+```
+
+### MatX
+```cpp
+
+#include <matx.h>
+
+auto main() -> int {
+
+  // Original matrix
+  auto t = matx::make_tensor<int32_t>({3, 4});
+  (t = matx::reshape(matx::range<0>({TotalSize(t)}, 1, 1), {3, 4})).run();
+  t.Print();
+
+  // Row reversal
+  auto t_row_rev = matx::make_tensor<int32_t>({3, 4});
+  (t_row_rev = matx::fliplr(t)).run();
+  t_row_rev.Print();
+
+  // Column reversal
+  auto t_col_rev = matx::make_tensor<int32_t>({3, 4});
+  (t_col_rev = matx::flipud(t)).run();
+  t_col_rev.Print();
+
+  // Reverse in memory
+  auto test = matx::make_tensor<int32_t>({3, 4});
+  (test = matx::reshape(matx::reverse<0>(matx::flatten(t)), {3, 4})).run();
+  test.Print();
+
+  return 0;
+}
+
+// Outputs
+Tensor{int32_t} Rank: 2, Sizes:[3, 4], Strides:[4,1]
+000000: 1 2 3 4 
+000001: 5 6 7 8 
+000002: 9 10 11 12 
+Tensor{int32_t} Rank: 2, Sizes:[3, 4], Strides:[4,1]
+000000: 4 3 2 1 
+000001: 8 7 6 5 
+000002: 12 11 10 9 
+Tensor{int32_t} Rank: 2, Sizes:[3, 4], Strides:[4,1]
+000000: 9 10 11 12 
+000001: 5 6 7 8 
+000002: 1 2 3 4 
+Tensor{int32_t} Rank: 2, Sizes:[3, 4], Strides:[4,1]
+000000: 12 11 10 9 
+000001: 8 7 6 5 
+000002: 4 3 2 1 
 ```
