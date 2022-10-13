@@ -14,6 +14,8 @@
 |Nial|`3 4 reshape count 12`|
 |Futhark|`unflatten 3 4 (1...12)`|
 |SaC|`reshape([3,4], iota(12))`|
+|ArrayFire|`transpose(iota(dim4(4, 3)))`|
+|MatX|:arrow_down:|:arrow_down:|
 
 ### APL
 ```apl
@@ -108,4 +110,45 @@ Shape    : <  3,  4>
 | 0  1  2  3 | 
 | 4  5  6  7 | 
 | 8  9 10 11 | 
+```
+
+### ArrayFire
+```cpp
+#include <arrayfire.h>
+
+auto main() -> int {
+
+  af::array const arr = af::transpose(af::iota(af::dim4(4, 3)));
+  af::print("Iota Matrix", arr);
+
+  return 0;
+}
+
+// Outputs
+Iota Matrix
+[3 4 1 1]
+    0.0000     1.0000     2.0000     3.0000 
+    4.0000     5.0000     6.0000     7.0000 
+    8.0000     9.0000    10.0000    11.0000 
+```
+
+### MatX
+```cpp
+#include <matx.h>
+
+auto main() -> int {
+
+  // Iota Matrix
+  auto t = matx::make_tensor<int32_t>({3, 4});
+  (t = matx::reshape<t.Rank()>(matx::range<0>({TotalSize(t)}, 1, 1), t.Shape())).run();
+  t.Print();
+
+  return 0;
+}
+
+// Outputs
+Tensor{int32_t} Rank: 2, Sizes:[3, 4], Strides:[4,1]
+000000: 1 2 3 4 
+000001: 5 6 7 8 
+000002: 9 10 11 12
 ```
