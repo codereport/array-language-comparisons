@@ -15,7 +15,7 @@
 |Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
 |SaC|flatten, reverse, reshape|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
 |ArrayFire|flat, flip, moddims|`flip(a, 0)`|`flip(a, 1)`|
-|MatX|flatten, reverse, reshape|:down_arrow:
+|MatX|flatten, reverse, reshape|:arrow_down::arrow_down:|:arrow_down::arrow_down:|
 
 ### APL
 ```apl
