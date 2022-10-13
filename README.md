@@ -19,24 +19,12 @@ This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumP
 
 There are several sites that do these kinds of comparisons:
 
-#### General
-
-* [Rosetta Code](http://www.rosettacode.org/wiki/Rosetta_Code)
-* [Programming-Idioms](https://programming-idioms.org/)
-
-#### Array Language Specific
-
-* [BQN-Dyalog Dictionary](https://mlochbaum.github.io/BQN/doc/fromDyalog.html)
-* [BQN-J Dictionary](https://mlochbaum.github.io/BQN/doc/fromJ.html)
-* [J-Dyalog APL Rosetta](http://sigapl.org/_J-Dyalog_APL_Rosetta.html)
-* [Q-APL Dictionary](https://github.com/codereport/The_Q_Programming_Language/blob/master/Q-Built-in-Functions.md)
-
-### Array Library Specific 
-
-* [ArrayFire-MATLAB-NumPy](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_matlab_python.md)
-* [ArrayFire-Eigen](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_eigen.md)
-* [ArrayFire-Numpy](https://arrayfire.com/wp-content/uploads/2012/05/Matrix_WP_ArrayFire_2017.pdf)
-* [MatX-MATALB-NumPy](https://nvidia.github.io/MatX/matlabpython.html)
+|General|Array Language Specific|Array Library Specific|
+|:-:|:-:|:-:|
+|[Rosetta Code](http://www.rosettacode.org/wiki/Rosetta_Code)|[BQN-Dyalog Dictionary](https://mlochbaum.github.io/BQN/doc/fromDyalog.html)|[ArrayFire-MATLAB-NumPy](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_matlab_python.md)|
+|[Programming-Idioms](https://programming-idioms.org/)|[BQN-Dyalog Dictionary](https://mlochbaum.github.io/BQN/doc/fromDyalog.html)|[ArrayFire-Eigen](https://github.com/arrayfire/arrayfire-api-cheat-sheet/blob/master/api_equiv_eigen.md)|
+||[J-Dyalog APL Rosetta](http://sigapl.org/_J-Dyalog_APL_Rosetta.html)|[ArrayFire-Numpy](https://arrayfire.com/wp-content/uploads/2012/05/Matrix_WP_ArrayFire_2017.pdf)|
+||[Q-APL Dictionary](https://github.com/codereport/The_Q_Programming_Language/blob/master/Q-Built-in-Functions.md)|[MatX-MATALB-NumPy](https://nvidia.github.io/MatX/matlabpython.html)|
 
 ### Language / Library Websites
 
