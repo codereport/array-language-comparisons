@@ -15,6 +15,7 @@
 |Futhark|:arrow_down::arrow_down:|
 |SaC|:arrow_down::arrow_down:|
 |ArrayFire|`identity(dim4(n, n), s32)`|
+|MatX|:arrow_down:|
 
 ### APL
 ```apl
