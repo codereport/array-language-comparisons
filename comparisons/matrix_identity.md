@@ -146,7 +146,7 @@ def identity n = outer_product (==) (iota n) (iota n)
 ```
 
 ### SaC
-```
+```c
 use StdIO: all;
 use Array: all;
 
@@ -168,4 +168,41 @@ Shape    : <  5,  5>
 | 0  0  1  0  0 | 
 | 0  0  0  1  0 | 
 | 0  0  0  0  1 | 
+```
+
+### ArrayFire
+```cpp
+#include <arrayfire.h>
+
+auto main() -> int {
+  af::array const arr = af::identity(af::dim4(4, 4), s32);
+  af::print("Identity Matrix", arr);
+  return 0;
+}
+
+// Outputs
+Identity Matrix
+[4 4 1 1]
+         1          0          0          0 
+         0          1          0          0 
+         0          0          1          0 
+         0          0          0          1 
+```
+
+### MatX
+```cpp
+#include <matx.h>
+
+auto main() -> int {
+  auto t = matx::make_tensor<int32_t>({3, 3});
+  (t = matx::eye(t.Shape())).run();
+  t.Print();
+  return 0;
+}
+
+// Outputs
+Tensor{int32_t} Rank: 2, Sizes:[3, 3], Strides:[3,1]
+000000: 1 0 0 
+000001: 0 1 0 
+000002: 0 0 1 
 ```

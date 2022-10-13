@@ -29,6 +29,6 @@ endif()
 
 set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
 
-add_executable(test test.cpp)
+add_executable(test test.cu)
 set_property(TARGET test PROPERTY CXX_STANDARD 20)
 target_link_libraries(test PRIVATE matx::matx)
