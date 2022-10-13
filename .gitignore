@@ -3,3 +3,5 @@ code/nial/auto.nlg
 code/sac/a.out*
 code/arrayfire/a.out
 code/aten/aten*
+code/matx/build/*
+.vscode/*
