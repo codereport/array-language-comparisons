@@ -11,7 +11,7 @@ auto print(auto arr) {
 auto main() -> int {
 
   auto t = matx::make_tensor<int32_t>({3, 4});
-  (t = matx::reshape(matx::range<0>({TotalSize(t)}, 1, 1), {3, 4})).run();
+  (t = matx::reshape<t.Rank()>(matx::range<0>({TotalSize(t)}, 1, 1), t.Shape())).run();
   t.Print();
   std::cout << t.Rank() << '\n';      // Rank
   print(t.Shape());                   // Shape
