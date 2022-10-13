@@ -53,9 +53,9 @@ There are several sites that do these kinds of comparisons:
 |:purple_heart:|Futhark|[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
 |:purple_heart::heartpulse:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
 |:heartpulse:|ArrayFire*|[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
+|:heartpulse:|MatX*|[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
 |:heartpulse:|ATen*|-|[ATen Docs](https://pytorch.org/cppdocs/#aten)|:no_entry_sign:|
 |:heartpulse:|Eigen*|[eigen.tuxfamily.org](https://eigen.tuxfamily.org/)|[Eigen Dox](https://eigen.tuxfamily.org/dox/)|[Godbolt](https://godbolt.org/)|
-|:heartpulse:|MatX*|[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
