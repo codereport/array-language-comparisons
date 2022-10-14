@@ -63,25 +63,41 @@ There are several sites that do these kinds of comparisons:
    1. `()` = Parentheses
    2. `LR` = Left to Right
    3. `RL` = Right to Left
+
+||1|2|3|4|
+|:-:|:-:|:-:|:-:|:-:|
+|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|
+|J|:green_heart:|0|`LA`|`RL`                  |
+|BQN|:green_heart:|0|`LA`|`RL`                |
+|Q|:yellow_heart:|0|:no_entry_sign:|`RL`      |
+|Julia|:green_heart:|1|`AA`|`()`              |
+|NumPy|:green_heart:|0|`AA`|`()`              |
+|R|:green_heart:|1|`AA`|`()`|
+|Nial|:yellow_heart:|0|`AA`|`LR`              |
+|Futhark|:yellow_heart:|0|:no_entry_sign:     |`LR`|
+|SaC|:no_entry_sign:|0|`LA`|`()`              |
+|ArrayFire|:no_entry_sign:|0|`LA`|`()`        |
+|MatX|:no_entry_sign:|0|`LA`|`()`             |
+
 5. Length of Array (Leading Axis)
 6. Shape of Array
 7. Rank of Array
 8. Number of Elements in Array
 
-||1|2|3|4|5|6|7|8
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|`≢`|`⍴`|`⍴⍴`|`×/⍴`|
-|J|:green_heart:|0|`LA`|`RL`|`#`|`$`|`$$`|`*/@$`|
-|BQN|:green_heart:|0|`LA`|`RL`|`≠`|`≢`|`≢≢`|`×´≢`|
-|Q|:yellow_heart:|0|:no_entry_sign:|`RL`|`count`|:no_entry_sign:|:no_entry_sign:|`count raze`|
-|Julia|:green_heart:|1|`AA`|`()`|`size(a, 1)`|`size(a)`|`ndims(a)`|`length(a)`|
-|NumPy|:green_heart:|0|`AA`|`()`|`len(a)`|`a.shape`|`np.ndim(a)`|`a.size`|
-|R|:green_heart:|1|`AA`|`()`|`dim(a)[1]`|`dim(a)`|`length(dim(a))`|`length(a)`|
-|Nial|:yellow_heart:|0|`AA`|`LR`|`first shape`|`shape`|`shape shape`|`tally`|
-|Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|`length`|:no_entry_sign:|:no_entry_sign:|`flatten \|> length`|
-|SaC|:no_entry_sign:|0|`LA`|`()`|`shape(a)[0]`|`shape(a)`|`shape(shape(a))`|`prod(shape(a))`|
-|ArrayFire|:no_entry_sign:|0|`LA`|`()`|`a.dims()[0]`|`a.dims()`\*|`a.numdims()`\*|`a.elements()`|
-|MatX|:no_entry_sign:|0|`LA`|`()`|`a.Shape()[0]`|`a.Shape()`|`a.Rank()`|`TotalSize(a)`|
+||5|6|7|8|
+|:-:|:-:|:-:|:-:|:-:|
+|APL|`≢`|`⍴`|`⍴⍴`|`×/⍴`|
+|J|`#`|`$`|`$$`|`*/@$`|
+|BQN|`≠`|`≢`|`≢≢`|`×´≢`|
+|Q|`count`|:no_entry_sign:|:no_entry_sign:|`count raze`|
+|Julia|`size(a, 1)`|`size(a)`|`ndims(a)`|`length(a)`|
+|NumPy|`len(a)`|`a.shape`|`np.ndim(a)`|`a.size`|
+|R|`dim(a)[1]`|`dim(a)`|`length(dim(a))`|`length(a)`|
+|Nial|`first shape`|`shape`|`shape shape`|`tally`|
+|Futhark|`length`|:no_entry_sign:|:no_entry_sign:|`flatten \|> length`|
+|SaC|`shape(a)[0]`|`shape(a)`|`shape(shape(a))`|`prod(shape(a))`|
+|ArrayFire|`a.dims()[0]`|`a.dims()`\*|`a.numdims()`\*|`a.elements()`|
+|MatX|`a.Shape()[0]`|`a.Shape()`|`a.Rank()`|`TotalSize(a)`|
 
 :yellow_heart: Means the REPL has certain limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)
