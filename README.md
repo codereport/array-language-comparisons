@@ -93,7 +93,7 @@ There are several sites that do these kinds of comparisons:
 |Julia|`size(a, 1)`|`size(a)`|`ndims(a)`|`length(a)`|
 |NumPy|`len(a)`|`a.shape`|`np.ndim(a)`|`a.size`|
 |R|`dim(a)[1]`|`dim(a)`|`length(dim(a))`|`length(a)`|
-|Nial|`first shape`|`shape`|`shape shape`|`tally`|
+|Nial|`first shape`|`shape`|`valence`|`tally`|
 |Futhark|`length`|:no_entry_sign:|:no_entry_sign:|`flatten \|> length`|
 |SaC|`shape(a)[0]`|`shape(a)`|`shape(shape(a))`|`prod(shape(a))`|
 |ArrayFire|`a.dims()[0]`|`a.dims()`\*|`a.numdims()`\*|`a.elements()`|
