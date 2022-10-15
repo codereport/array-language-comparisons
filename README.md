@@ -64,27 +64,28 @@ There are several sites that do these kinds of comparisons:
    1. `()` = Parentheses
    2. `LR` = Left to Right
    3. `RL` = Right to Left
+5. Row-major or Column-Major
 
-||1|2|3|4|
-|:-:|:-:|:-:|:-:|:-:|
-|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|
-|J|:green_heart:|0|`LA`|`RL`                  |
-|BQN|:green_heart:|0|`LA`|`RL`                |
-|Q|:yellow_heart:|0|:no_entry_sign:|`RL`      |
-|Julia|:green_heart:|1|`AA`|`()`              |
-|MATLAB|:green_heart:|1|`LA`|`()`|
-|NumPy|:green_heart:|0|`AA`|`()`              |
-|R|:green_heart:|1|`AA`|`()`|
-|Nial|:yellow_heart:|0|`AA`|`LR`              |
-|Futhark|:yellow_heart:|0|:no_entry_sign:     |`LR`|
-|SaC|:no_entry_sign:|0|`LA`|`()`              |
-|ArrayFire|:no_entry_sign:|0|`LA`|`()`        |
-|MatX|:no_entry_sign:|0|`LA`|`()`             |
+||1|2|3|4|5|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|Row|
+|J|:green_heart:|0|`LA`|`RL`                  |Row|
+|BQN|:green_heart:|0|`LA`|`RL`                |Row|
+|Q|:yellow_heart:|0|:no_entry_sign:|`RL`      |Row|
+|Julia|:green_heart:|1|`AA`|`()`              |Column|
+|MATLAB|:green_heart:|1|`LA`|`()`             |Column|
+|NumPy|:green_heart:|0|`AA`|`()`              |Row|
+|R|:green_heart:|1|`AA`|`()`                  |Column|
+|Nial|:yellow_heart:|0|`AA`|`LR`              |Row|
+|Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|Row|
+|SaC|:no_entry_sign:|0|`LA`|`()`              |Row|
+|ArrayFire|:no_entry_sign:|0|`LA`|`()`        |Column|
+|MatX|:no_entry_sign:|0|`LA`|`()`             |Row|
 
-5. Length of Array (Leading Axis)
-6. Shape of Array
-7. Rank of Array
-8. Number of Elements in Array
+6. Length of Array (Leading Axis)
+7. Shape of Array
+8. Rank of Array
+9. Number of Elements in Array
 
 ||5|6|7|8|
 |:-:|:-:|:-:|:-:|:-:|
