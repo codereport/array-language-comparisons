@@ -9,6 +9,7 @@
 |BQN|`=⌜˜↕`|
 |Q|`{(til x) =/: (til x)}`|
 |Julia|:arrow_down::arrow_down:|
+|MATLAB|`eye(n)`|
 |NumPy|`np.identity(n, int)`<br> `np.equal.outer(np.arange(n), np.arange(n)).astype(int)`|
 |R|`diag(n)` <br> `outer(1:n, 1:n, "==")`|
 |Nial|:arrow_down::arrow_down:|
@@ -87,6 +88,19 @@ julia> identity(5)
  0  0  1  0  0
  0  0  0  1  0
  0  0  0  0  1
+```
+
+### MATB
+```
+>> eye(5)
+
+ans =
+
+     1     0     0     0     0
+     0     1     0     0     0
+     0     0     1     0     0
+     0     0     0     1     0
+     0     0     0     0     1
 ```
 
 ### NumPy
