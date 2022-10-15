@@ -28,22 +28,23 @@ There are several sites that do these kinds of comparisons:
 
 ### Language / Library Websites
 
-||Language|Main Website|Help / Docs|Online REPL|
-|:-:|:-:|:-:|:-:|:-:|
-|:green_heart:|Dyalog APL|[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|[TryAPL](https://tryapl.org/)|
-|:green_heart:|J|[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|[J Playground](https://jsoftware.github.io/j-playground/bin/html2/#)|
-|:green_heart:|BQN|[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|[BQNPAD](https://bqnpad.mechanize.systems/)|
-|:green_heart:|Q|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|:no_entry_sign:|
-|:blue_heart:|Julia|[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|[Replit](https://julialang.org/learning/tryjulia/)|
-|:blue_heart:|NumPy*|[numpy.org](https://numpy.org/)|[NumPy Docs](https://numpy.org/doc/stable/)|[Replit](https://replit.com/languages/python3)|
-|:blue_heart:|R|[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
-|:purple_heart:|Nial|[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
-|:purple_heart:|Futhark|[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
-|:purple_heart::heartpulse:|SaC|[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
-|:heartpulse:|ArrayFire*|[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
-|:heartpulse:|MatX*|[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
-|:heartpulse:|ATen*|-|[ATen Docs](https://pytorch.org/cppdocs/#aten)|:no_entry_sign:|
-|:heartpulse:|Eigen*|[eigen.tuxfamily.org](https://eigen.tuxfamily.org/)|[Eigen Dox](https://eigen.tuxfamily.org/dox/)|[Godbolt](https://godbolt.org/)|
+||Language|:heavy_dollar_sign:|Main Website|Help / Docs|Online REPL|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|:green_heart:|Dyalog APL||[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|[TryAPL](https://tryapl.org/)|
+|:green_heart:|J||[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|[J Playground](https://jsoftware.github.io/j-playground/bin/html2/#)|
+|:green_heart:|BQN||[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|[BQNPAD](https://bqnpad.mechanize.systems/)|
+|:green_heart:|Q|:heavy_dollar_sign:|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|:no_entry_sign:|
+|:blue_heart:|Julia||[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|[Replit](https://julialang.org/learning/tryjulia/)|
+|:blue_heart:|MATLAB|:heavy_dollar_sign:|[mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)|[MATLAB Help](https://www.mathworks.com/help/matlab/)|:heavy_dollar_sign:|
+|:blue_heart:|NumPy*||[numpy.org](https://numpy.org/)|[NumPy Docs](https://numpy.org/doc/stable/)|[Replit](https://replit.com/languages/python3)|
+|:blue_heart:|R||[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
+|:purple_heart:|Nial||[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
+|:purple_heart:|Futhark||[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
+|:purple_heart::heartpulse:|SaC||[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
+|:heartpulse:|ArrayFire*||[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
+|:heartpulse:|MatX*||[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
+|:heartpulse:|ATen*||-|[ATen Docs](https://pytorch.org/cppdocs/#aten)|:no_entry_sign:|
+|:heartpulse:|Eigen*||[eigen.tuxfamily.org](https://eigen.tuxfamily.org/)|[Eigen Dox](https://eigen.tuxfamily.org/dox/)|[Godbolt](https://godbolt.org/)|
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
@@ -71,6 +72,7 @@ There are several sites that do these kinds of comparisons:
 |BQN|:green_heart:|0|`LA`|`RL`                |
 |Q|:yellow_heart:|0|:no_entry_sign:|`RL`      |
 |Julia|:green_heart:|1|`AA`|`()`              |
+|MATLAB|:green_heart:|1|`LA`|`()`|
 |NumPy|:green_heart:|0|`AA`|`()`              |
 |R|:green_heart:|1|`AA`|`()`|
 |Nial|:yellow_heart:|0|`AA`|`LR`              |
@@ -91,6 +93,7 @@ There are several sites that do these kinds of comparisons:
 |BQN|`≠`|`≢`|`≢≢`|`×´≢`|
 |Q|`count`|:no_entry_sign:|:no_entry_sign:|`count raze`|
 |Julia|`size(a, 1)`|`size(a)`|`ndims(a)`|`length(a)`|
+|MATLAB|`length(a)`|`size(a)`|`rank(a)`|`numel(a)`|
 |NumPy|`len(a)`|`a.shape`|`np.ndim(a)`|`a.size`|
 |R|`dim(a)[1]`|`dim(a)`|`length(dim(a))`|`length(a)`|
 |Nial|`first shape`|`shape`|`valence`|`tally`|
