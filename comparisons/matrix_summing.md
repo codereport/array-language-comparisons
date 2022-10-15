@@ -9,6 +9,7 @@
 |BQN|`+´⥊`|`+˝`|`+´˘`<br>`+˝⎉1`|
 |Q|`sum raze`|`sum`|`sum each`|
 |Julia|`sum(a)`<br>`sum(a, dims=:)`|`sum(a, dims=1)`|`sum(a, dims=2)`|
+|MATLAB|`sum(a, 'all')`<br>`sum(a(:))`|`sum(a)`<br>`sum(a, 1)`|`sum(a, 2)`|
 |NumPy|`np.sum(a)`<br>`np.sum(a, None)`|`np.sum(a, 0)`|`np.sum(a, 1)`|
 |R|`sum(a)`|`apply(sum, 1, a)`|`apply(sum, 2, a)`|
 |Nial|`sum`|`BYCOLS sum`|`BYROWS sum`|
