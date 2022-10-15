@@ -9,6 +9,7 @@
 |BQN|`⌽⌾⥊`|`⌽`|`⌽˘`<br>`⌽⎉1`|
 |Q|deshape, reverse, reshape|`reverse`|`reverse each`|
 |Julia|`reverse(a)` <br> `reverse(a, dims=:)`|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
+|MATLAB|`(:)`, reverse, reshape|`flip(a)`<br>`flip(a, 1)`|`flip(a, 2)`|
 |NumPy|`np.flip(a)` <br> `np.flip(a, None)`|`np.flip(a, 0)` <br> `np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
 |R|reverse, reshape|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
 |Nial|`reverse`|`BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)`|`BYROWS reverse` <br> `1 RANK reverse`|
@@ -138,6 +139,33 @@ julia> reverse(a, dims=2)
  3  2  1
  6  5  4
  9  8  7
+```
+
+### MATLAB
+```
+>> m = reshape([1:12], [3 4])
+
+m =
+
+     1     4     7    10
+     2     5     8    11
+     3     6     9    12
+
+>> flip(m)
+
+ans =
+
+     3     6     9    12
+     2     5     8    11
+     1     4     7    10
+
+>> flip(m, 2)
+
+ans =
+
+    10     7     4     1
+    11     8     5     2
+    12     9     6     3
 ```
 
 ### NumPy
