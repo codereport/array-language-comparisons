@@ -9,6 +9,7 @@
 |BQN|`3‿4⥊↕12`|
 |Q|`3 4 # til 12`|
 |Julia|`reshape(1:12, 4, 3) \|> permutedims`|
+|MATLAB|`reshape([1:12], [3 4])`|
 |NumPy|`np.arange(12).reshape(3,4)`|
 |R|`matrix(1:12, nrow=3, byrow=TRUE)`|
 |Nial|`3 4 reshape count 12`|
@@ -58,6 +59,17 @@ julia> reshape(1:12, 4, 3) |> permutedims
  1   2   3   4
  5   6   7   8
  9  10  11  12
+```
+
+### MATLAB
+```
+>> reshape([1:12], [3 4])
+
+ans =
+
+     1     4     7    10
+     2     5     8    11
+     3     6     9    12
 ```
 
 ### NumPy
