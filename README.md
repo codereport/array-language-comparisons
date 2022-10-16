@@ -66,42 +66,42 @@ There are several sites that do these kinds of comparisons:
    3. `RL` = Right to Left
 5. Row-major or Column-Major
 
-||1|2|3|4|5|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|APL|:green_heart:|1 (or `⎕IO`)|`LA`/`TA`|`RL`|Row|
-|J|:green_heart:|0|`LA`|`RL`                  |Row|
-|BQN|:green_heart:|0|`LA`|`RL`                |Row|
-|Q|:yellow_heart:|0|:no_entry_sign:|`RL`      |Row|
-|Julia|:green_heart:|1|`AA`|`()`              |Column|
-|MATLAB|:green_heart:|1|`LA`|`()`             |Column|
-|NumPy|:green_heart:|0|`AA`|`()`              |Row|
-|R|:green_heart:|1|`AA`|`()`                  |Column|
-|Nial|:yellow_heart:|0|`AA`|`LR`              |Row|
-|Futhark|:yellow_heart:|0|:no_entry_sign:|`LR`|Row|
-|SaC|:no_entry_sign:|0|`LA`|`()`              |Row|
-|ArrayFire|:no_entry_sign:|0|`LA`|`()`        |Column|
-|MatX|:no_entry_sign:|0|`LA`|`()`             |Row|
+|           |        1        |      2       |        3        |   4   |   5    |
+| :-------: | :-------------: | :----------: | :-------------: | :---: | :----: |
+|    APL    |  :green_heart:  | 1 (or `⎕IO`) |    `LA`/`TA`    | `RL`  |  Row   |
+|     J     |  :green_heart:  |      0       |      `LA`       | `RL`  |  Row   |
+|    BQN    |  :green_heart:  |      0       |      `LA`       | `RL`  |  Row   |
+|     Q     | :yellow_heart:  |      0       | :no_entry_sign: | `RL`  |  Row   |
+|   Julia   |  :green_heart:  |      1       |      `AA`       | `()`  | Column |
+|  MATLAB   |  :green_heart:  |      1       |      `LA`       | `()`  | Column |
+|   NumPy   |  :green_heart:  |      0       |      `AA`       | `()`  |  Row   |
+|     R     |  :green_heart:  |      1       |      `AA`       | `()`  | Column |
+|   Nial    | :yellow_heart:  |      0       |      `AA`       | `LR`  |  Row   |
+|  Futhark  | :yellow_heart:  |      0       | :no_entry_sign: | `LR`  |  Row   |
+|    SaC    | :no_entry_sign: |      0       |      `LA`       | `()`  |  Row   |
+| ArrayFire | :no_entry_sign: |      0       |      `LA`       | `()`  | Column |
+|   MatX    | :no_entry_sign: |      0       |      `LA`       | `()`  |  Row   |
 
 6. Length of Array (Leading Axis)
 7. Shape of Array
 8. Rank of Array
 9. Number of Elements in Array
 
-||5|6|7|8|
-|:-:|:-:|:-:|:-:|:-:|
-|APL|`≢`|`⍴`|`⍴⍴`|`×/⍴`|
-|J|`#`|`$`|`$$`|`*/@$`|
-|BQN|`≠`|`≢`|`≢≢`|`×´≢`|
-|Q|`count`|:no_entry_sign:|:no_entry_sign:|`count raze`|
-|Julia|`size(a, 1)`|`size(a)`|`ndims(a)`|`length(a)`|
-|MATLAB|`length(a)`|`size(a)`|`rank(a)`|`numel(a)`|
-|NumPy|`len(a)`|`a.shape`|`np.ndim(a)`|`a.size`|
-|R|`dim(a)[1]`|`dim(a)`|`length(dim(a))`|`length(a)`|
-|Nial|`first shape`|`shape`|`valence`|`tally`|
-|Futhark|`length`|:no_entry_sign:|:no_entry_sign:|`flatten \|> length`|
-|SaC|`shape(a)[0]`|`shape(a)`|`shape(shape(a))`|`prod(shape(a))`|
-|ArrayFire|`a.dims()[0]`|`a.dims()`\*|`a.numdims()`\*|`a.elements()`|
-|MatX|`a.Shape()[0]`|`a.Shape()`|`a.Rank()`|`TotalSize(a)`|
+|           |       5        |        6        |         7         |          8           |
+| :-------: | :------------: | :-------------: | :---------------: | :------------------: |
+|    APL    |      `≢`       |       `⍴`       |       `⍴⍴`        |        `×/⍴`         |
+|     J     |      `#`       |       `$`       |       `$$`        |        `*/@$`        |
+|    BQN    |      `≠`       |       `≢`       |       `≢≢`        |        `×´≢`         |
+|     Q     |    `count`     | :no_entry_sign: |  :no_entry_sign:  |     `count raze`     |
+|   Julia   |  `size(a, 1)`  |    `size(a)`    |    `ndims(a)`     |     `length(a)`      |
+|  MATLAB   |  `length(a)`   |    `size(a)`    |     `rank(a)`     |      `numel(a)`      |
+|   NumPy   |    `len(a)`    |    `a.shape`    |   `np.ndim(a)`    |       `a.size`       |
+|     R     |  `dim(a)[1]`   |    `dim(a)`     | `length(dim(a))`  |     `length(a)`      |
+|   Nial    | `first shape`  |     `shape`     |     `valence`     |       `tally`        |
+|  Futhark  |    `length`    | :no_entry_sign: |  :no_entry_sign:  | `flatten \|> length` |
+|    SaC    | `shape(a)[0]`  |   `shape(a)`    | `shape(shape(a))` |   `prod(shape(a))`   |
+| ArrayFire | `a.dims()[0]`  |  `a.dims()`\*   |  `a.numdims()`\*  |    `a.elements()`    |
+|   MatX    | `a.Shape()[0]` |   `a.Shape()`   |    `a.Rank()`     |    `TotalSize(a)`    |
 
 :yellow_heart: Means the REPL has certain limitations
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)
