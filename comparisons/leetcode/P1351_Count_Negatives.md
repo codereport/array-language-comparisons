@@ -11,7 +11,7 @@
 |BQN|`+´0>⥊`||
 |Q|`sum raze 0> x`|[Link](https://github.com/codereport/LeetCode/blob/master/0176_Problem_1.q)|
 |Julia|`sum(x .< 0)`|[Link](https://github.com/codereport/LeetCode/blob/master/0176_Problem_1.jl)|
-|MATLAB|`sum(grid > 0, 'all')`|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matlab/countNegatives.m)|
+|MATLAB|`sum(grid < 0, 'all')`|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matlab/countNegatives.m)|
 |NumPy|`np.sum(np.less(x, 0))`||
 |R|`sum(x < 0)`||
 |Nial|`sum(x < 0)`||
