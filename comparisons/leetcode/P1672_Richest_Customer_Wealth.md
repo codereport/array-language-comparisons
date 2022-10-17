@@ -11,7 +11,7 @@
 |BQN|`⌈´+˝⎉1`|[Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.bqn)|
 |Q|`max sum each x`||
 |Julia|`sum(x, dims=2) \|> maximum`|[Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.jl)|
-|MATLAB|`max(sum(accounts, 2))`|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matlab/maxWealth.m)|
+|MATLAB|`max(sum(x, 2))`|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matlab/maxWealth.m)|
 |NumPy|`np.max(np.sum(x, axis=1))`||
 |R|`max(rowSums(x))`|[Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.r)|
 |Nial|`max BYROWS sum x`||
