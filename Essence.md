@@ -12,7 +12,8 @@
 |J|Adverbs & <br> Conjunctions|:green_heart:|`/ (insert)`|:green_heart:|`\ (prefix)`|:green_heart:|`/ (table)`|
 |BQN|Modifiers|:green_heart:|`´ (fold)`<br>`˝ (insert)`|:green_heart:|`` ` (scan)``|:green_heart:|`⌜ (table)`|
 |Q|Iterators|:green_heart:|`/`<br>`over`|:green_heart:|`\`<br>`scan`|:green_heart:|`/:\:`|
-|Julia|Functions|:green_heart:|`reduce`|:green_heart:|`accumulate`|:yellow_heart:|`broadcast`
+|Julia|Functions|:green_heart:|`reduce`|:green_heart:|`accumulate`|:yellow_heart:|`broadcast`|
+|MATLAB||:heart:|-|:heart:|-|:yellow_heart:|`broadcast`|
 |NumPy|Functions|:green_heart:|`_.reduce()`|:green_heart:|`_.accumulate()`|:green_heart:|`_.outer()`|
 |R|Functions|:green_heart:|`Reduce`|:green_heart:|`Reduce(accumulate=TRUE)`|:green_heart:|`outer`|
 |Nial|Transformers|:green_heart:|`REDUCE`|:green_heart:|`ACCUMULATE`|:green_heart:|`OUTER`|
@@ -29,6 +30,7 @@
 |BQN|:green_heart:|:green_heart:|
 |Q|:green_heart:|:green_heart:|
 |Julia|:yellow_heart:|:heart:|
+|MATLAB|:green_heart:|:heart:|
 |NumPy|:yellow_heart:|:heart:|
 |R|:yellow_heart:|:heart:|
 |Nial|:green_heart:|:green_heart:|
