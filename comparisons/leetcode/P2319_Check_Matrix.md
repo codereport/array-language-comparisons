@@ -11,8 +11,11 @@
 |BQN|`CheckMatrix ← {(1⌊𝕩)≡⌽⊸⌈=⌜˜↕≠𝕩}`|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.bqn)|
 |Q|`checkMatrix: {a: til count x; i: a =/:\: a; m: i \| reverse i; m ~ x <> 0 }`|
 |Julia|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.jl)|
+|MATLAB|:arrow_right::arrow_right:|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matlab/checkMatrix.m)|
 |NumPy|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.py)|
 |R|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.r)|
 |Nial|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.nial)|
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.fut)|
 |SaC|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.sac)|
+|ArrayFire|:soon:|:soon:|
+|MatX|:soon:|:soon:|
