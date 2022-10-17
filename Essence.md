@@ -30,7 +30,7 @@
 |BQN|:green_heart:|:green_heart:|
 |Q|:green_heart:|:green_heart:|
 |Julia|:yellow_heart:|:heart:|
-|MATLAB|:green_heart:|:heart:|
+|MATLAB|:green_heart:|:green_heart:|
 |NumPy|:yellow_heart:|:heart:|
 |R|:yellow_heart:|:heart:|
 |Nial|:green_heart:|:green_heart:|
