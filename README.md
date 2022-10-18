@@ -134,6 +134,9 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |5|:yellow_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
 
+* :green_heart: = All solutions complete
+* :yellow_heart: = Some solutions missing
+
 #### Progress
 
 | Language  |      1a       |       1b        |       2       |        3        |       4       |       5       |      6       |
@@ -151,6 +154,3 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |    SaC    |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :soon:        |:green_heart: |
 | ArrayFire |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     | :green_heart: |   :soon:     |
 |   MatX    |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     | :green_heart: |   :soon:     |
-
-* :green_heart: = All solutions complete
-* :yellow_heart: = Some solutions missing
