@@ -2,11 +2,8 @@
 #include <matx.h>
 
 auto count_negatives(matx::tensor_t<int32_t, 2> grid) -> matx::tensor_t<int32_t, 0> {
-  auto zero = matx::make_tensor<int32_t>({1});
-  auto temp = matx::make_tensor<int32_t>({TotalSize(grid)});
   auto res  = matx::make_tensor<int32_t>();
-  (temp = matx::flatten(grid < zero)).run();
-  matx::sum(res, temp);
+  matx::sum(res, grid < 0);
   return res;
 }
 
