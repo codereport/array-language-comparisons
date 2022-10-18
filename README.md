@@ -135,21 +135,21 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 
 #### Progress
 
-| Language  |      1a       |       1b        |       2       |       3       |       4       |       5       |
-| :-------: | :-----------: | :-------------: | :-----------: | :-----------: | :-----------: | :-----------: |
-|    APL    | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|     J     | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|    BQN    | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|     Q     | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|   Julia   |    :soon:     |  :green_heart:  | :green_heart: |    :soon:     | :green_heart: | :green_heart: |
-|  MATLAB   |    :soon:     | :no_entry_sign: | :green_heart: |    :soon:     | :green_heart: | :green_heart: |
-|   NumPy   | :green_heart: |  :green_heart:  | :green_heart: |    :soon:     | :green_heart: | :green_heart: |
-|     R     |    :soon:     |  :green_heart:  | :green_heart: |    :soon:     | :green_heart: | :green_heart: |
-|   Nial    | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|  Futhark  |    :soon:     |  :green_heart:  | :green_heart: | :green_heart: | :green_heart: | :green_heart: |
-|    SaC    |    :soon:     |     :soon:      | :green_heart: |    :soon:     | :green_heart: | :green_heart: |
-| ArrayFire |    :soon:     |     :soon:      | :green_heart: |    :soon:     |    :soon:     |    :soon:     |
-|   MatX    |    :soon:     |     :soon:      | :green_heart: |    :soon:     |    :soon:     |    :soon:     |
+| Language  |      1a       |       1b        |       2       |        3        |       4       |       5       |
+| :-------: | :-----------: | :-------------: | :-----------: | :-------------: | :-----------: | :-----------: |
+|    APL    | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|     J     | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|    BQN    | :green_heart: |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|     Q     | :green_heart: |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|   Julia   |    :soon:     |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |
+|  MATLAB   |    :soon:     | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |
+|   NumPy   | :green_heart: |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |
+|     R     |    :soon:     |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |
+|   Nial    | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|  Futhark  |    :soon:     |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |
+|    SaC    |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |
+| ArrayFire |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     |    :soon:     |
+|   MatX    |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     |    :soon:     |
 
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing

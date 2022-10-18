@@ -12,8 +12,11 @@
 |BQN|``MaxDepth ← ⌈´·+`·-˝"()"=⌜⊢`` |[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.bqn)|
 |Q|`maxDepth: { max sums (-) over "()" =/:\: x }`|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.q)|
 |Julia|:soon:||
+|MATLAB|no scan|
 |NumPy|:soon:||
 |R|:soon:||
 |Nial|`MAX ACCUMULATE + BYCOLS - '()' OUTER = x`||
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.fut)|
 |SaC|:soon:||
+|ArrayFire|:soon:|
+|MatX|:soon:|
