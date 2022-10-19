@@ -13,7 +13,7 @@
 |Q|`maxDepth: { max sums (-) over "()" =/:\: x }`|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.q)|
 |Julia|no row-wise minus reduction||
 |MATLAB|no scan|
-|NumPy|:soon:||
+|NumPy|limited support for character arrays||
 |R|:soon:||
 |Nial|`MAX ACCUMULATE + BYCOLS - '()' OUTER = x`||
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.fut)|
