@@ -1,0 +1,13 @@
+use StdIO: all;
+use Array: all;
+
+int array_sign(int[.] accounts) {
+    return prod(max(min(accounts, 1), -1));
+}
+
+int main() {
+    print(array_sign([-1, -2, -3, -4, 3, 2, 1])); // 1
+    print(array_sign([1, 5, 0, 2, -3]));          // 0
+    print(array_sign([-1, 1, -1, 1, -1]));        // -1
+    return 0;
+}

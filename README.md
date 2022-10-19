@@ -130,8 +130,8 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |1|:yellow_heart:|[P0485 - MCO (Max Consecutive Ones)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0485_MCO.md)|-|
 |2|:green_heart:|[P1351 - Count Negatives](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1351_Count_Negatives.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
 |3|:yellow_heart:|[P1614 - Maximum Nesting Depth of the Parentheses](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1614_Max_Paren_Depth.md)|[YouTube Solution](https://www.youtube.com/watch?v=zrOIQEN3Wkk) \| [II](https://www.youtube.com/watch?v=6-mk6OpcUdM)|
-|4|:yellow_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
-|5|:yellow_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
+|4|:green_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
+|5|:green_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
 
 * :green_heart: = All solutions complete
@@ -149,8 +149,8 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |  MATLAB   |    :soon:     | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
 |   NumPy   | :green_heart: |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 |     R     |    :soon:     |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
-|   Nial    | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: |     :soon:    |:green_heart: |
+|   Nial    | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |  Futhark  |    :soon:     |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|    SaC    |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :soon:        |:green_heart: |
-| ArrayFire |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     | :green_heart: |   :soon:     |
-|   MatX    |    :soon:     |     :soon:      | :green_heart: |     :soon:      |    :soon:     | :green_heart: |   :soon:     |
+|    SaC    |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
+| ArrayFire |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
+|   MatX    |    :soon:     |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |

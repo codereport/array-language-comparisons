@@ -17,5 +17,5 @@
 |Nial|`max BYROWS sum x`||
 |Futhark|`map i32.sum x \|> i32.maximum`||
 |SaC|`maxval({ [i] -> sum(x[i])})`||
-|ArrayFire|:soon:|:soon:|
-|MatX|:soon:|:soon:|
+|ArrayFire|`max(sum(x, 1))`|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/arrayfire/P1672_Richest_Customer_Wealth.cpp)|
+|MatX|:arrow_down::arrow_down:|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matx/P1672_Richest_Customer_Wealth.cu)|
