@@ -145,7 +145,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |     J     | :green_heart: | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |    BQN    | :green_heart: |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |     Q     | :green_heart: |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|   Julia   |    :soon:     |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
+|   Julia   |    :soon:     |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
 |  MATLAB   |    :soon:     | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
 |   NumPy   | :green_heart: |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 |     R     |    :soon:     |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
