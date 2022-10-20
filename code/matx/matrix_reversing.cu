@@ -22,7 +22,7 @@ auto main() -> int {
 
   // Reverse in memory
   auto test = matx::make_tensor<int32_t>({3, 4});
-  (test = matx::reshape(matx::reverse<0>(matx::flatten(t)), {3, 4})).run();
+  (test = matx::flipud(matx::fliplr(t))).run();
   test.Print();
 
   return 0;
