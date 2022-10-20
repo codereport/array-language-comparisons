@@ -18,6 +18,7 @@
 |R|Functions|:green_heart:|`Reduce`|:green_heart:|`Reduce(accumulate=TRUE)`|:green_heart:|`outer`|
 |Nial|Transformers|:green_heart:|`REDUCE`|:green_heart:|`ACCUMULATE`|:green_heart:|`OUTER`|
 |Futhark|Functions<br>SOAC|:green_heart:|`foldl/r`<br>`reduce(_comm)`|:green_heart:|`scan`|:yellow_heart:|`outer_product`|
+|Ivy|Operators|:green_heart:|`/ (reduce)`|:green_heart:|`\ (scan)`|:green_heart:|`o. (outer product)`|
 |SaC||:heart:|-|:heart:|-|:heart:|-|
 |ArrayFire||:heart:|-|:heart:|-|:heart:|-|
 
@@ -35,5 +36,6 @@
 |R|:yellow_heart:|:heart:|
 |Nial|:green_heart:|:green_heart:|
 |Futhark|:heart:|:green_heart:|
+|Ivy|:green_heart:|:green_heart:|
 |SaC|:heart:|:heart:|
 |ArrayFire|:heart:|:heart:|
