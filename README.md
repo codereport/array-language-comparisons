@@ -40,6 +40,7 @@ There are several sites that do these kinds of comparisons:
 |:blue_heart:|R||[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
 |:purple_heart:|Nial||[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
 |:purple_heart:|Futhark||[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
+|:purple_heart:|Ivy|[pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)|[Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)|
 |:purple_heart::heartpulse:|SaC||[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
 |:heartpulse:|ArrayFire*||[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
 |:heartpulse:|MatX*||[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
@@ -66,21 +67,22 @@ There are several sites that do these kinds of comparisons:
    3. `RL` = Right to Left
 5. Row-major or Column-Major
 
-|           |        1        |      2       |        3        |   4   |   5    |
-| :-------: | :-------------: | :----------: | :-------------: | :---: | :----: |
-|    APL    |  :green_heart:  | 1 (or `⎕IO`) |    `LA`/`TA`    | `RL`  |  Row   |
-|     J     |  :green_heart:  |      0       |      `LA`       | `RL`  |  Row   |
-|    BQN    |  :green_heart:  |      0       |      `LA`       | `RL`  |  Row   |
-|     Q     | :yellow_heart:  |      0       | :no_entry_sign: | `RL`  |  Row   |
-|   Julia   |  :green_heart:  |      1       |      `AA`       | `()`  | Column |
-|  MATLAB   |  :green_heart:  |      1       |      `LA`       | `()`  | Column |
-|   NumPy   |  :green_heart:  |      0       |      `AA`       | `()`  |  Row   |
-|     R     |  :green_heart:  |      1       |      `AA`       | `()`  | Column |
-|   Nial    | :yellow_heart:  |      0       |      `AA`       | `LR`  |  Row   |
-|  Futhark  | :yellow_heart:  |      0       | :no_entry_sign: | `LR`  |  Row   |
-|    SaC    | :no_entry_sign: |      0       |      `LA`       | `()`  |  Row   |
-| ArrayFire | :no_entry_sign: |      0       |      `LA`       | `()`  | Column |
-|   MatX    | :no_entry_sign: |      0       |      `LA`       | `()`  |  Row   |
+|           |        1        |      2          |        3        |   4   |   5    |
+| :-------: | :-------------: | :----------:    | :-------------: | :---: | :----: |
+|    APL    |  :green_heart:  | 1 (or `⎕IO`)    |    `LA`/`TA`    | `RL`  |  Row   |
+|     J     |  :green_heart:  |      0          |      `LA`       | `RL`  |  Row   |
+|    BQN    |  :green_heart:  |      0          |      `LA`       | `RL`  |  Row   |
+|     Q     | :yellow_heart:  |      0          | :no_entry_sign: | `RL`  |  Row   |
+|   Julia   |  :green_heart:  |      1          |      `AA`       | `()`  | Column |
+|  MATLAB   |  :green_heart:  |      1          |      `LA`       | `()`  | Column |
+|   NumPy   |  :green_heart:  |      0          |      `AA`       | `()`  |  Row   |
+|     R     |  :green_heart:  |      1          |      `AA`       | `()`  | Column |
+|   Nial    | :yellow_heart:  |      1          |      `AA`       | `LR`  |  Row   |
+|  Futhark  | :yellow_heart:  |      0          | :no_entry_sign: | `LR`  |  Row   |
+|    Ivy    | :yellow_heart:  | 1 (or `origin`) | :no_entry_sign: | `RL`  |  Row   |
+|    SaC    | :no_entry_sign: |      0          |      `LA`       | `()`  |  Row   |
+| ArrayFire | :no_entry_sign: |      0          |      `LA`       | `()`  | Column |
+|   MatX    | :no_entry_sign: |      0          |      `LA`       | `()`  |  Row   |
 
 6. Length of Array (Leading Axis)
 7. Shape of Array
@@ -99,6 +101,7 @@ There are several sites that do these kinds of comparisons:
 |     R     |  `dim(a)[1]`   |    `dim(a)`     | `length(dim(a))`  |     `length(a)`      |
 |   Nial    | `first shape`  |     `shape`     |     `valence`     |       `tally`        |
 |  Futhark  |    `length`    | :no_entry_sign: |  :no_entry_sign:  | `flatten \|> length` |
+|    Ivy    |  `1 take rho`  |      `rho`      |     `rho rho`     |       `rho ,`        |
 |    SaC    | `shape(a)[0]`  |   `shape(a)`    | `shape(shape(a))` |   `prod(shape(a))`   |
 | ArrayFire | `a.dims()[0]`  |  `a.dims()`\*   |  `a.numdims()`\*  |    `a.elements()`    |
 |   MatX    | `a.Shape()[0]` |   `a.Shape()`   |    `a.Rank()`     |    `TotalSize(a)`    |
@@ -151,6 +154,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 |   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
+|    Ivy    |
 |    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 | ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
 |   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
