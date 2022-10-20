@@ -40,7 +40,7 @@ There are several sites that do these kinds of comparisons:
 |:blue_heart:|R||[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
 |:purple_heart:|Nial||[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
 |:purple_heart:|Futhark||[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
-|:purple_heart:|Ivy|[pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)|[Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)|
+|:purple_heart:|Ivy||[pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)|[Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)|:no_entry_sign:|
 |:purple_heart::heartpulse:|SaC||[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
 |:heartpulse:|ArrayFire*||[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
 |:heartpulse:|MatX*||[nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)|[MatX API Ref](nvidia.github.io/MatX)|:no_entry_sign:|
