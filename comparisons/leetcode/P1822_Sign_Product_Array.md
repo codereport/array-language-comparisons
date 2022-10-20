@@ -16,6 +16,7 @@
 |     R     |                `prod(sign(x))`                |                                                                                                                  |
 |   Nial    |             `product -[0 <,0 >]`              |                                                                                                                  |
 |  Futhark  |      `x \|> map i32.sgn \|> i32.product`      |                                                                                                                  |
+|    Ivy    |                  `*/ sgn x`                   |                                                                                                                  |
 |    SaC    |          `prod(max(min(x, 1), -1))`           |                                                                                                                  |
 | ArrayFire | `af::product(af::max(af::min(x, 1.0), -1.0))` |                                                                                                                  |
 |   MatX    |          :arrow_right::arrow_right:           | [Link](https://github.com/codereport/array-language-comparisons/blob/main/code/matx/P1822_Sign_Product_Array.cu) |
