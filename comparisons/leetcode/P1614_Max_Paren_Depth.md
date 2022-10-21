@@ -17,6 +17,7 @@
 |R|:soon:||
 |Nial|`MAX ACCUMULATE + BYCOLS - '()' OUTER = x`||
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.fut)|
+|Ivy|`max/ +\ -/ x o.== "()"`||
 |SaC|:soon:||
 |ArrayFire|:soon:|
 |MatX|:soon:|
