@@ -18,5 +18,5 @@
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.fut)|
 |Ivy|:arrow_right::arrow_right:|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/ivy/checkmatrix.ivy)| 
 |SaC|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.sac)|
-|ArrayFire|:soon:|:soon:|
+|ArrayFire|:arrow_right::arrow_right:|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/arrayfire/P1351_Count_Negatives.cpp)|
 |MatX|:soon:|:soon:|

@@ -156,5 +156,5 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |
 |    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
-| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
+| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 |   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
