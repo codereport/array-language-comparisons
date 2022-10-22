@@ -14,6 +14,7 @@
 |R|reverse, reshape|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
 |Nial|`reverse`|`BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)`|`BYROWS reverse` <br> `1 RANK reverse`|
 |Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
+|Ivy|ravel, flip, rho|`flip transp`|`transp flip transp`|
 |SaC|flatten, reverse, reshape|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
 |ArrayFire|flat, flip, moddims|`flip(a, 0)`|`flip(a, 1)`|
 |MatX|flatten, reverse, reshape|:arrow_down::arrow_down:|:arrow_down::arrow_down:|
@@ -261,6 +262,20 @@ array([[2, 1, 0],
 [[4i32, 3i32, 2i32, 1i32],
  [8i32, 7i32, 6i32, 5i32],
  [12i32, 11i32, 10i32, 9i32]]
+```
+
+### Ivy
+```
+flip transp m
+ 4  8 12
+ 3  7 11
+ 2  6 10
+ 1  5  9
+
+transp flip transp m
+ 4  3  2  1
+ 8  7  6  5
+12 11 10  9
 ```
 
 ### SaC

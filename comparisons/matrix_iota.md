@@ -14,6 +14,7 @@
 |R|`matrix(1:12, nrow=3, byrow=TRUE)`|
 |Nial|`3 4 reshape count 12`|
 |Futhark|`unflatten 3 4 (1...12)`|
+|Ivy|`3 4 rho iota 12`|
 |SaC|`reshape([3,4], iota(12))`|
 |ArrayFire|`transpose(iota(dim4(4, 3)))`|
 |MatX|:arrow_down:|:arrow_down:|
@@ -104,6 +105,14 @@ array([[ 0,  1,  2,  3],
 [[1i32, 2i32, 3i32, 4i32],
  [5i32, 6i32, 7i32, 8i32],
  [9i32, 10i32, 11i32, 12i32]]
+```
+
+### Ivy
+```
+3 4 rho iota 12
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
 ```
 
 ### SaC

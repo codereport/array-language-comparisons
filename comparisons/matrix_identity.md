@@ -14,6 +14,7 @@
 |R|`diag(n)` <br> `outer(1:n, 1:n, "==")`|
 |Nial|:arrow_down::arrow_down:|
 |Futhark|:arrow_down::arrow_down:|
+|Ivy|`(iota n) o.== iota n`|
 |SaC|:arrow_down::arrow_down:|
 |ArrayFire|`identity(dim4(n, n), s32)`|
 |MatX|:arrow_down:|
@@ -158,6 +159,16 @@ def identity n = outer_product (==) (iota n) (iota n)
  [0i32, 0i32, 0i32, 1i32, 0i32],
  [0i32, 0i32, 0i32, 0i32, 1i32]]
 
+```
+
+### Ivy
+```
+(iota 5) o.== iota 5
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
 ```
 
 ### SaC
