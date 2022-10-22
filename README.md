@@ -154,7 +154,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 |   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
 |  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|    Ivy    |    :soon:       |     :soon:      |:green_heart: |      :soon:      |:green_heart:  | :green_heart: |:green_heart: |
+|    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |
 |    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
 | ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
 |   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
