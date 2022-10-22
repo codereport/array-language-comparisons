@@ -16,7 +16,7 @@
 |R|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.r)|
 |Nial|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.nial)|
 |Futhark|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.fut)|
-|Ivy|no match & `and /` doesn't work|| 
+|Ivy|:arrow_right::arrow_right:|[Link](https://github.com/codereport/array-language-comparisons/blob/main/code/ivy/checkmatrix.ivy)| 
 |SaC|:arrow_right::arrow_right:|[Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.sac)|
 |ArrayFire|:soon:|:soon:|
 |MatX|:soon:|:soon:|

@@ -1,0 +1,7 @@
+op first x = +/ 1 take x
+
+op checkmatrix x =
+   a = iota first rho x
+   i = a o.== a
+   m = i max flip i
+   and/ (, 1 min x) == , m
