@@ -89,7 +89,7 @@ There are several sites that do these kinds of comparisons:
 8. Rank of Array
 9. Number of Elements in Array
 
-|           |       5        |        6        |         7         |          8           |
+|           |       6        |        7        |         8         |          9           |
 | :-------: | :------------: | :-------------: | :---------------: | :------------------: |
 |    APL    |      `≢`       |       `⍴`       |       `⍴⍴`        |        `×/⍴`         |
 |     J     |      `#`       |       `$`       |       `$$`        |        `*/@$`        |
