@@ -136,25 +136,26 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |4|:green_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
 |5|:green_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
+|7|:yellow_heart:|[LCIS (Longest Continuous Increasing Subsequence)](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
 
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing
 
 #### Progress
 
-| Language  |      1a         |       1b        |       2       |        3        |       4       |       5       |      6       |
-| :-------: | :-----------:   | :-------------: | :-----------: | :-------------: | :-----------: | :-----------: |:-----------: |
-|    APL    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|     J     | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|    BQN    | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|   Julia   | :no_entry_sign: |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
-|  MATLAB   |    :soon:       | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
-|   NumPy   | :green_heart:   |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |
-|     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
-|   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |
-|    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |
-|    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
-| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |
-|   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |
+| Language  |      1a         |       1b        |       2       |        3        |       4       |       5       |      6       |      7      |
+| :-------: | :-----------:   | :-------------: | :-----------: | :-------------: | :-----------: | :-----------: |:-----------: |:-----------:|
+|    APL    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
+|     J     | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
+|    BQN    | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
+|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
+|   Julia   | :no_entry_sign: |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|  MATLAB   |    :soon:       | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|   NumPy   | :green_heart:   |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |   :soon:    |
+|    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
+|   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |   :soon:    |
