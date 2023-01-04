@@ -136,7 +136,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |4|:green_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
 |5|:green_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
-|7|:yellow_heart:|[LCIS (Longest Continuous Increasing Subsequence)](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+|7|:yellow_heart:|[P00674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)|-|
 
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing
