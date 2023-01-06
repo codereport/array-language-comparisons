@@ -30,10 +30,12 @@ There are several sites that do these kinds of comparisons:
 
 ||Language|:heavy_dollar_sign:|Main Website|Help / Docs|Online REPL|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|:green_heart:|Dyalog APL||[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|[TryAPL](https://tryapl.org/)|
+|:green_heart:|Dyalog APL|:heavy_dollar_sign: \*\*|[dyalog.com](https://www.dyalog.com/)|[Dyalog Help](https://help.dyalog.com/18.2/)|[TryAPL](https://tryapl.org/)|
 |:green_heart:|J||[jsoftware.com](https://www.jsoftware.com/)|[J NuVoc](https://code.jsoftware.com/wiki/NuVoc)|[J Playground](https://jsoftware.github.io/j-playground/bin/html2/#)|
 |:green_heart:|BQN||[mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)|[BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)|[BQNPAD](https://bqnpad.mechanize.systems/)|
-|:green_heart:|Q|:heavy_dollar_sign:|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|:no_entry_sign:|
+|:green_heart:|Q|:heavy_dollar_sign: \*\*|[code.kx.com/q](https://code.kx.com/q/)|[Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)|[KX Sandbox](edu.kx.com) (requires sign up)|
+|:green_heart:|K (ngn/k)||[ngn/k repo](https://codeberg.org/ngn/k)|[In repl help](https://codeberg.org/ngn/k/src/branch/master/repl.k#L16)|[ngn/k repl](https://ngn.codeberg.page/k/#r)|
+|:green_heart:|K (oK)||[oK repo](https://github.com/JohnEarnest/ok/)|[oK manual](https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md)|[oK repl](https://johnearnest.github.io/ok/)|
 |:blue_heart:|Julia||[julialang.org](https://julialang.org/)|[Julia Docs](https://docs.julialang.org/en/v1/)|[Replit](https://julialang.org/learning/tryjulia/)|
 |:blue_heart:|MATLAB|:heavy_dollar_sign:|[mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)|[MATLAB Help](https://www.mathworks.com/help/matlab/)|:heavy_dollar_sign:|
 |:blue_heart:|NumPy*||[numpy.org](https://numpy.org/)|[NumPy Docs](https://numpy.org/doc/stable/)|[Replit](https://replit.com/languages/python3)|
@@ -52,6 +54,8 @@ There are several sites that do these kinds of comparisons:
 * :blue_heart: Main (Non-APL-Family) Array Languages
 * :purple_heart: Fringe Array Languages
 * :heartpulse: Array Compiler Backends / Array Libraries
+
+\*\* Free for non commercial use
 
 ### Comparisons
 
