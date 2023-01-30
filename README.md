@@ -126,7 +126,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 3. [Reversing a Matrix Row-wise, Column-wise and in Memory](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_reversing.md)
 4. [Summing a Matrix Row-wise, Column-wise and Down to a Scalar](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/matrix_summing.md)
 
-### Leetcode Problems
+### Leetcode / PWC Problems
 
 |#||Problem|:video_camera:|
 |:-:|:-:|:-|:-:|
@@ -136,26 +136,28 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |4|:green_heart:|[P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)|[YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)|
 |5|:green_heart:|[P1822 - Sign of the Product of Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)|
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
-|7|:yellow_heart:|[P00674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)|-|
+|7|:yellow_heart:|[P0674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)|-|
+|8|:yellow_heart:|[P00064 - Maixmum Gap](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)|-|
+|9|:yellow_heart:|[PWC198 P1 - Maximum Gap Count](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)|-|
 
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing
 
 #### Progress
 
-| Language  |      1a         |       1b        |       2       |        3        |       4       |       5       |      6       |      7      |
-| :-------: | :-----------:   | :-------------: | :-----------: | :-------------: | :-----------: | :-----------: |:-----------: |:-----------:|
-|    APL    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
-|     J     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
-|    BQN    | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
-|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|
-|   Julia   | :no_entry_sign: |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|  MATLAB   |    :soon:       | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|   NumPy   | :green_heart:   |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |   :soon:    |
-|    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |
-|   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |   :soon:    |
+| Language  |      1a         |       1b        |       2       |        3        |       4       |       5       |      6       |      7      |      8      |      9      |
+| :-------: | :-----------:   | :-------------: | :-----------: | :-------------: | :-----------: | :-----------: |:-----------: |:-----------:|:-----------:|:-----------:|
+|    APL    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
+|     J     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
+|    BQN    | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
+|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|   :soon:    |   :soon:    |
+|   Julia   | :no_entry_sign: |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|  MATLAB   |    :soon:       | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|   NumPy   | :green_heart:   |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|     R     |    :soon:       |  :green_heart:  | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|   Nial    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|  Futhark  |    :soon:       |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|    Ivy    | :no_entry_sign: | :no_entry_sign: | :green_heart: |  :green_heart:  |:green_heart:  | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|    SaC    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+| ArrayFire |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
+|   MatX    |    :soon:       |     :soon:      | :green_heart: |     :soon:      | :green_heart: | :green_heart: |   :soon:     |   :soon:    |   :soon:    |   :soon:    |
