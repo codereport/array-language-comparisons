@@ -138,7 +138,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |6|:yellow_heart:|[P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)|[YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)|
 |7|:yellow_heart:|[P0674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)|-|
 |8|:yellow_heart:|[P00064 - Maixmum Gap](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)|-|
-|9|:yellow_heart:|[PWC198 P1 - Maximum Gap Count](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)|-|
+|9|:yellow_heart:|[PWC198 P1 - Maximum Gap Count](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/pwc/PWC198_P1_Max_Gap_Count.md)|-|
 
 * :green_heart: = All solutions complete
 * :yellow_heart: = Some solutions missing
