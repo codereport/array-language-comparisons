@@ -7,7 +7,7 @@
 |APL|`MaxGap ← {⌈/2-/(⊂⍤⍒⌷⊢)⍵}`||
 |J|`MaxGap =. {{ >./ 2-/\ \:~ y }}`||
 |BQN|`MaxGap ← {⌈´-´˘2↕∨𝕩}`||
-|Q|:soon:||
+|Q|`maxgap: { max 1 _ (-) prior asc x }`||
 |Julia|:soon:||
 |MATLAB|:soon:||
 |NumPy|:soon:||

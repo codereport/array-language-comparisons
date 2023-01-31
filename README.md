@@ -150,7 +150,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |    APL    | :green_heart:   | :no_entry_sign: | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
 |     J     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
 |    BQN    | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
-|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|   :soon:    |   :soon:    |
+|     Q     | :green_heart:   |  :green_heart:  | :green_heart: |  :green_heart:  | :green_heart: | :green_heart: |:green_heart: |:green_heart:|:green_heart:|:green_heart:|
 |   Julia   | :no_entry_sign: |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
 |  MATLAB   |    :soon:       | :no_entry_sign: | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |
 |   NumPy   | :green_heart:   |  :green_heart:  | :green_heart: | :no_entry_sign: | :green_heart: | :green_heart: |:green_heart: |   :soon:    |   :soon:    |   :soon:    |

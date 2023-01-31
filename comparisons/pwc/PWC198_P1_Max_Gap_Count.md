@@ -7,7 +7,7 @@
 |APL|`MaxGapCount ← {+/(⌈/=⊢)2-/(⊂⍤⍒⌷⊢)⍵}`||
 |J|`MaxGapCount =. {{ +/ (= >./) 2-/\ \:~ y }}`||
 |BQN|`MaxGapCount ← {+´⌈´⊸=-´˘2↕∨𝕩}`||
-|Q|:soon:||
+|Q|`maxgapcount: { sum { x = max x } 1 _ (-) prior asc x }`||
 |Julia|:soon:||
 |MATLAB|:soon:||
 |NumPy|:soon:||
