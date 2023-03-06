@@ -115,7 +115,7 @@ If you are using Q, Nial, Futhark or other languages with REPL limitations, you 
 
 ```
 sudo apt install rlwrap
-rlwrap taskset -c 0 ./q
+rlwrap taskset -c 2 ./q
 ```
 Note that even when using `rlwrap`, some of the limitations will remain (such as CTRL + arrows).
 
