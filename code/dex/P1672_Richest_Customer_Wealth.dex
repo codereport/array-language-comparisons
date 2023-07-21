@@ -1,0 +1,15 @@
+-- Dex Solution for Richest Customer Wealth
+
+def richestCustomerWealth(accounts: m => n => Nat) -> Nat given (m|Ix, n|Ix) =
+  maximum(for i. sum(accounts[i]))
+--  maximum(sum(transpose(accounts)))
+--  maximum(map (\row. sum row) accounts)
+
+-- Tests
+a = [[1,2,3],[3,2,1]]
+b = [[1,5],[7,3],[3,5]]
+c = [[2,8,7],[7,1,3],[1,9,5]]
+
+richestCustomerWealth(a) -- 6
+richestCustomerWealth(b) -- 10
+richestCustomerWealth(c) -- 17

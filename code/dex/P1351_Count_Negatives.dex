@@ -1,0 +1,14 @@
+-- Dex Solution to Count Negatives
+
+def countNegatives(grid : m => n => Int32) -> Int32 given (m|Ix, n|Ix) = 
+  sum(sum(for i j. b_to_i (grid[i,j] < 0)))
+-- Alternateive solution but:
+-- no rank polymorphism 😢
+-- no currying 😢
+--  sum (sum (map (\xs. map (\x. b_to_i (x < 0)) xs) grid))
+
+a = [[4, 3 , 2, -1], [3, 2, 1, -1], [1, 1, -1, -2], [-1, -1, -2, -3]]
+b:(Fin 2)=>(Fin 2)=>Int32 = [[3, 2], [1, 0]]
+
+countNegatives(a) -- 8
+countNegatives(b) -- 0
