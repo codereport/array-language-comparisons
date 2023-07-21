@@ -1,0 +1,19 @@
+-- Dex Solution to Sign of Array Product
+
+def isign(i: Int32) -> Int32 = min(1, max(-1, i))
+
+def arraySign(nums: n => Int32) -> Int32 given (n|Ix) = 
+  prod(for i. isign nums[i])
+  -- isign(prod(nums))
+  -- prod(map (\x. isign x) nums)
+  -- prod(map (\x. f_to_i (sign (i_to_f x))) nums)
+
+-- Tests
+a = [-1, -2, -3, -4,3,2,1]
+b = [1,5,0,2, -3]
+c = [-1,1, -1,1, -1]
+
+arraySign(a) -- 1
+arraySign(b) -- 0
+arraySign(c) -- -1
+
