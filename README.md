@@ -40,6 +40,7 @@ There are several sites that do these kinds of comparisons:
 |:blue_heart:|R||[r-project.org](https://www.r-project.org/)|[R Docs](https://www.rdocumentation.org/)|[JDoodle](https://www.jdoodle.com/execute-r-online/)|
 |:purple_heart:|Nial||[nial-array-language.org](https://www.nial-array-language.org/)|[Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html)|[TIO](https://tio.run/#Nial)|
 |:purple_heart:|Futhark||[futhark-lang.org](https://futhark-lang.org/)|[Futhark Docs](https://futhark-lang.org/docs.html)|:no_entry_sign:|
+|:purple_heart:|Dex||[github.com/google-research/dex-lang](https://github.com/google-research/dex-lang)|[InDex](https://google-research.github.io/dex-lang/index.html)|:no_entry_sign:|
 |:purple_heart:|Ivy||[pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)|[Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)|:no_entry_sign:|
 |:purple_heart::heartpulse:|SaC||[sac-home.org](https://www.sac-home.org/)|[SaC Docs](https://www.sac-home.org/docs:main)|:no_entry_sign:|
 |:heartpulse:|ArrayFire*||[arrayfire.com](https://arrayfire.com/)|[ArrayFire Docs](https://arrayfire.org/docs/)|:no_entry_sign:|
@@ -50,7 +51,7 @@ There are several sites that do these kinds of comparisons:
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
 * :blue_heart: Main (Non-APL-Family) Array Languages
-* :purple_heart: Fringe Array Languages
+* :purple_heart: Fringe / Research Array Languages
 * :heartpulse: Array Compiler Backends / Array Libraries
 
 ### Comparisons
@@ -79,6 +80,7 @@ There are several sites that do these kinds of comparisons:
 |     R     |  :green_heart:  |      1          |      `AA`       | `()`  | Column |
 |   Nial    | :yellow_heart:  |      1          |      `AA`       | `LR`  |  Row   |
 |  Futhark  | :yellow_heart:  |      0          | :no_entry_sign: | `LR`  |  Row   |
+|    Dex    | :yellow_heart:  |      0          |                 | `()`  |        |
 |    Ivy    | :yellow_heart:  | 1 (or `origin`) | :no_entry_sign: | `RL`  |  Row   |
 |    SaC    | :no_entry_sign: |      0          |      `LA`       | `()`  |  Row   |
 | ArrayFire | :no_entry_sign: |      0          |      `LA`       | `()`  | Column |
@@ -101,6 +103,7 @@ There are several sites that do these kinds of comparisons:
 |     R     |  `dim(a)[1]`   |    `dim(a)`     | `length(dim(a))`  |     `length(a)`      |
 |   Nial    | `first shape`  |     `shape`     |     `valence`     |       `tally`        |
 |  Futhark  |    `length`    | :no_entry_sign: |  :no_entry_sign:  | `flatten \|> length` |
+|    Dex    |                |                 |                   |                      | 
 |    Ivy    |  `1 take rho`  |      `rho`      |     `rho rho`     |       `rho ,`        |
 |    SaC    | `shape(a)[0]`  |   `shape(a)`    | `shape(shape(a))` |   `prod(shape(a))`   |
 | ArrayFire | `a.dims()[0]`  |  `a.dims()`\*   |  `a.numdims()`\*  |    `a.elements()`    |
@@ -110,6 +113,7 @@ There are several sites that do these kinds of comparisons:
 * **Q** REPL has no HOME, END, or any arrows (CTRL or not)
 * **Nial** REPL has no CTRL left or right arrow
 * **Futhark** REPL has no HOME, END, or DEL
+* **Dex** REPL as no UP, DOWN and does not work with `rlwrap`
 
 If you are using Q, Nial, Futhark or other languages with REPL limitations, you can get around this by invoking with `rlwrap`. On Linux using the Q REPL:
 
