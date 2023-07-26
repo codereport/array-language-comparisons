@@ -1,4 +1,4 @@
--- Problem Link: 
+-- Problem Link: https://leetcode.com/problems/max-consecutive-ones/
 
 def scanl(f: (a, a) -> a, init: a, xs: n => a) -> n => a given (a|Data, n|Ix) =
    scan' init \i acc. f(acc, xs[i])
