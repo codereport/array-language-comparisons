@@ -103,7 +103,7 @@ There are several sites that do these kinds of comparisons:
 |     R     |  `dim(a)[1]`   |    `dim(a)`     | `length(dim(a))`  |     `length(a)`      |
 |   Nial    | `first shape`  |     `shape`     |     `valence`     |       `tally`        |
 |  Futhark  |    `length`    | :no_entry_sign: |  :no_entry_sign:  | `flatten \|> length` |
-|    Dex    |                |                 |                   |                      | 
+|    Dex    |    `size`*     | :no_entry_sign: |  :no_entry_sign:  |                      | 
 |    Ivy    |  `1 take rho`  |      `rho`      |     `rho rho`     |       `rho ,`        |
 |    SaC    | `shape(a)[0]`  |   `shape(a)`    | `shape(shape(a))` |   `prod(shape(a))`   |
 | ArrayFire | `a.dims()[0]`  |  `a.dims()`\*   |  `a.numdims()`\*  |    `a.elements()`    |
