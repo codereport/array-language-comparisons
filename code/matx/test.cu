@@ -10,7 +10,7 @@ auto print(auto arr) {
 
 auto main() -> int {
 
-  auto t = matx::make_tensor<int32_t>({3, 4});
+  // auto t = matx::make_tensor<int32_t>({3, 4});
   // (t = matx::range<0>(t.Shape(), 1, 0)).run();
   // t.Print();
   // std::cout << t.Rank() << '\n';
@@ -29,8 +29,7 @@ auto main() -> int {
 
   // // matx::
 
-  (t = matx::eye(t.Shape())).run();
-  t.Print();
+  matx::print(matx::eye({3, 4}));
 
   return 0;
 }
