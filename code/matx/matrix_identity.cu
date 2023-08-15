@@ -2,10 +2,7 @@
 #include <matx.h>
 
 auto main() -> int {
-
-  auto t = matx::make_tensor<int32_t>({3, 3});
-  (t = matx::eye(t.Shape())).run();
-  t.Print();
+  matx::print(matx::eye({3, 3}));
 
   return 0;
 }
