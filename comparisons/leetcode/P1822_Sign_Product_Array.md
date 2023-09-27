@@ -9,6 +9,7 @@
 |    APL    |                     `×/×`                     |                  [Link](https://github.com/codereport/LeetCode/blob/master/0236_Problem_1.apl)                   |
 |     J     |                     `*/*`                     |                                                                                                                  |
 |    BQN    |                     `×´×`                     |                                                                                                                  |
+|   Uiua    |                     `/×±`                     |                                                                                                                  |
 |     Q     |                `prd signum x`                 |                                                                                                                  |
 |   Julia   |              `sign.(x) \|> prod`              |                                                                                                                  |
 |  MATLAB   |                `prod(sign(x))`                |                                                                                                                  |

@@ -2,22 +2,23 @@
 
 ### Summary
 
-||Iota Matrix|
-|:-:|:-:|
-|APL|`3 4⍴⍳12`|
-|J|`i.3 4`|
-|BQN|`3‿4⥊↕12`|
-|Q|`3 4 # til 12`|
-|Julia|`reshape(1:12, 4, 3) \|> permutedims`|
-|MATLAB|`reshape([1:12], [3 4])`|
-|NumPy|`np.arange(12).reshape(3,4)`|
-|R|`matrix(1:12, nrow=3, byrow=TRUE)`|
-|Nial|`3 4 reshape count 12`|
-|Futhark|`unflatten 3 4 (1...12)`|
-|Ivy|`3 4 rho iota 12`|
-|SaC|`reshape([3,4], iota(12))`|
-|ArrayFire|`transpose(iota(dim4(4, 3)))`|
-|MatX|:arrow_down:|:arrow_down:|
+|           |              Iota Matrix              |
+| :-------: | :-----------------------------------: |
+|    APL    |               `3 4⍴⍳12`               |
+|     J     |                `i.3 4`                |
+|    BQN    |               `3‿4⥊↕12`               |
+|   Uiua    |               `↯3_4⇡12`               |
+|     Q     |            `3 4 # til 12`             |
+|   Julia   | `reshape(1:12, 4, 3) \|> permutedims` |
+|  MATLAB   |       `reshape([1:12], [3 4])`        |
+|   NumPy   |     `np.arange(12).reshape(3,4)`      |
+|     R     |  `matrix(1:12, nrow=3, byrow=TRUE)`   |
+|   Nial    |        `3 4 reshape count 12`         |
+|  Futhark  |       `unflatten 3 4 (1...12)`        |
+|    Ivy    |           `3 4 rho iota 12`           |
+|    SaC    |      `reshape([3,4], iota(12))`       |
+| ArrayFire |     `transpose(iota(dim4(4, 3)))`     |
+|   MatX    |       :arrow_down::arrow_down:        |
 
 ### APL
 ```apl

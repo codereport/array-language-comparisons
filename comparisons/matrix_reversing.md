@@ -2,22 +2,25 @@
 
 ### Summary
 
-||Reverse In Memory|Reverse Columns|Reverse Rows|
-|:-:|:-:|:-:|:-:|
-|APL|ravel, reverse, reshape|`⊖`|`⌽` <br> `⊖⍤1`|
-|J|ravel, reverse, reshape|`\|.`|`\|."1`|
-|BQN|`⌽⌾⥊`|`⌽`|`⌽˘`<br>`⌽⎉1`|
-|Q|deshape, reverse, reshape|`reverse`|`reverse each`|
-|Julia|`reverse(a)` <br> `reverse(a, dims=:)`|`reverse(a, dims=1)`|`reverse(a, dims=2)`|
-|MATLAB|`(:)`, reverse, reshape|`flip(a)`<br>`flip(a, 1)`|`flip(a, 2)`|
-|NumPy|`np.flip(a)` <br> `np.flip(a, None)`|`np.flip(a, 0)` <br> `np.flipud(a)`|`np.flip(a, 1)` <br> `np.fliplr(a)`|
-|R|reverse, reshape|`apply(a, 1, rev)`|`apply(a, 2, rev)`|
-|Nial|`reverse`|`BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)`|`BYROWS reverse` <br> `1 RANK reverse`|
-|Futhark|flatten, reverse, reshape|`reverse`|`map reverse`|
-|Ivy|ravel, flip, rho|`flip transp`|`transp flip transp`|
-|SaC|flatten, reverse, reshape|`reverse(a)`|`{ [i] -> reverse(a[i]) }`|
-|ArrayFire|flat, flip, moddims|`flip(a, 0)`|`flip(a, 1)`|
-|MatX|flatten, reverse, reshape|:arrow_down::arrow_down:|:arrow_down::arrow_down:|
+|           |           Reverse In Memory            |                        Reverse Columns                         |              Reverse Rows              |
+| :-------: | :------------------------------------: | :------------------------------------------------------------: | :------------------------------------: |
+|    APL    |        ravel, reverse, reshape         |                              `⊖`                               |             `⌽` <br> `⊖⍤1`             |
+|     J     |        ravel, reverse, reshape         |                             `\|.`                              |                `\|."1`                 |
+|    BQN    |                 `⌽⌾⥊`                  |                              `⌽`                               |             `⌽˘`<br>`⌽⎉1`              |
+|   Uiua    |                 `⍜⇌♭`*                 |                              `⇌`                               |                  `≡⇌`                  |
+|     Q     |       deshape, reverse, reshape        |                           `reverse`                            |             `reverse each`             |
+|   Julia   | `reverse(a)` <br> `reverse(a, dims=:)` |                      `reverse(a, dims=1)`                      |          `reverse(a, dims=2)`          |
+|  MATLAB   |        `(:)`, reverse, reshape         |                   `flip(a)`<br>`flip(a, 1)`                    |              `flip(a, 2)`              |
+|   NumPy   |  `np.flip(a)` <br> `np.flip(a, None)`  |              `np.flip(a, 0)` <br> `np.flipud(a)`               |  `np.flip(a, 1)` <br> `np.fliplr(a)`   |
+|     R     |            reverse, reshape            |                       `apply(a, 1, rev)`                       |           `apply(a, 2, rev)`           |
+|   Nial    |               `reverse`                | `BYCOLS reverse` <br> `transpose (1 RANK reverse transpose a)` | `BYROWS reverse` <br> `1 RANK reverse` |
+|  Futhark  |       flatten, reverse, reshape        |                           `reverse`                            |             `map reverse`              |
+|    Ivy    |            ravel, flip, rho            |                         `flip transp`                          |          `transp flip transp`          |
+|    SaC    |       flatten, reverse, reshape        |                          `reverse(a)`                          |       `{ [i] -> reverse(a[i]) }`       |
+| ArrayFire |          flat, flip, moddims           |                          `flip(a, 0)`                          |              `flip(a, 1)`              |
+|   MatX    |       flatten, reverse, reshape        |                    :arrow_down::arrow_down:                    |        :arrow_down::arrow_down:        |
+
+\* https://github.com/uiua-lang/uiua/issues/4
 
 ### APL
 ```apl

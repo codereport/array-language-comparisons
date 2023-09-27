@@ -2,22 +2,23 @@
 
 ### Summary
 
-||Identity Matrix|
-|:-:|:-:|
-|APL|`∘.=⍨⍳`|
-|J|`e.@i.`|
-|BQN|`=⌜˜↕`|
-|Q|`{(til x) =/: (til x)}`|
-|Julia|:arrow_down::arrow_down:|
-|MATLAB|`eye(n)`|
-|NumPy|`np.identity(n, int)`<br> `np.equal.outer(np.arange(n), np.arange(n)).astype(int)`|
-|R|`diag(n)` <br> `outer(1:n, 1:n, "==")`|
-|Nial|:arrow_down::arrow_down:|
-|Futhark|:arrow_down::arrow_down:|
-|Ivy|`(iota n) o.== iota n`|
-|SaC|:arrow_down::arrow_down:|
-|ArrayFire|`identity(dim4(n, n), s32)`|
-|MatX|:arrow_down:|
+|           |                                  Identity Matrix                                   |
+| :-------: | :--------------------------------------------------------------------------------: |
+|    APL    |                                      `∘.=⍨⍳`                                       |
+|     J     |                                      `e.@i.`                                       |
+|    BQN    |                                       `=⌜˜↕`                                       |
+|   Uiua    |                                       `⊞=.⇡`                                       |
+|     Q     |                              `{(til x) =/: (til x)}`                               |
+|   Julia   |                              :arrow_down::arrow_down:                              |
+|  MATLAB   |                                      `eye(n)`                                      |
+|   NumPy   | `np.identity(n, int)`<br> `np.equal.outer(np.arange(n), np.arange(n)).astype(int)` |
+|     R     |                       `diag(n)` <br> `outer(1:n, 1:n, "==")`                       |
+|   Nial    |                              :arrow_down::arrow_down:                              |
+|  Futhark  |                              :arrow_down::arrow_down:                              |
+|    Ivy    |                               `(iota n) o.== iota n`                               |
+|    SaC    |                              :arrow_down::arrow_down:                              |
+| ArrayFire |                            `identity(dim4(n, n), s32)`                             |
+|   MatX    |                                    :arrow_down:                                    |
 
 ### APL
 ```apl
