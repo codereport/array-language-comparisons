@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/twitter/follow/code_report.svg?style=social&label=@code_report" /></a>
 </p>
 
-![image](https://user-images.githubusercontent.com/36027403/193055974-8d8008a2-a1e6-4bd4-8ecc-7624fa611f25.png)
+![image](https://github.com/codereport/array-language-comparisons/assets/36027403/13f7164e-d9ea-4c7c-a211-bd437d51949c)
 
 This is a collection of idioms and small programs in APL, J, BQN, Julia, R, NumPy, Nial, Futhark & SaC.
 
