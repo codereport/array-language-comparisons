@@ -63,6 +63,21 @@ Essay on [Identity Matrix in J](https://code.jsoftware.com/wiki/Essays/Identity_
             ┘
 ```
 
+### Uiua
+```uiua
+   Identity ← ⊞=.⇡
+
+   # Example Usage
+   Identity 5
+┌─           
+╵ 1 0 0 0 0  
+  0 1 0 0 0  
+  0 0 1 0 0  
+  0 0 0 1 0  
+  0 0 0 0 1  
+            ┘
+```
+
 ### Q
 ```q
 identity: {(til x) =/: (til x)}
