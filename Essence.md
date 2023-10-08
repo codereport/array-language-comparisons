@@ -11,6 +11,7 @@
 |    APL    |   Operators <br> Adverbs    | :green_heart: | `/ (reduce)` <br> `⌿ (reduce first)` | :green_heart: | `\ (scan)` <br> `⍀ (scan first)` | :green_heart:  | `∘. (outer product)` |
 |     J     | Adverbs & <br> Conjunctions | :green_heart: |             `/ (insert)`             | :green_heart: |           `\ (prefix)`           | :green_heart:  |     `/ (table)`      |
 |    BQN    |          Modifiers          | :green_heart: |      `´ (fold)`<br>`˝ (insert)`      | :green_heart: |          `` ` (scan)``           | :green_heart:  |     `⌜ (table)`      |
+|   Uiua    |          Modifiers          | :green_heart: |             `/ (reduce)`             | :green_heart: |            `\ (scan)`            | :green_heart:  |     `⊞ (table)`      |
 |     Q     |          Iterators          | :green_heart: |            `/`<br>`over`             | :green_heart: |          `\`<br>`scan`           | :green_heart:  |        `/:\:`        |
 |   Julia   |          Functions          | :green_heart: |               `reduce`               | :green_heart: |           `accumulate`           | :yellow_heart: |     `broadcast`      |
 |  MATLAB   |                             |    :heart:    |                  -                   |    :heart:    |                -                 | :yellow_heart: |     `broadcast`      |
@@ -30,6 +31,7 @@
 |    APL    |  :green_heart:   |        :green_heart:         |
 |     J     |  :green_heart:   |        :green_heart:         |
 |    BQN    |  :green_heart:   |        :green_heart:         |
+|   Uiua    |  :green_heart:   |        :green_heart:         |
 |     Q     |  :green_heart:   |        :green_heart:         |
 |   Julia   |  :yellow_heart:  |           :heart:            |
 |  MATLAB   |  :green_heart:   |        :green_heart:         |
