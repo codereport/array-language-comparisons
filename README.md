@@ -98,7 +98,7 @@ There are several sites that do these kinds of comparisons:
 |    APL    |      `≢`       |       `⍴`       |       `⍴⍴`        |        `×/⍴`         |
 |     J     |      `#`       |       `$`       |       `$$`        |        `*/@$`        |
 |    BQN    |      `≠`       |       `≢`       |       `≢≢`        |        `×´≢`         |
-|   Uiua    |      `⧻`       |       `△`       |        `∴`        |         `⧻♭`         |
+|   Uiua    |      `⧻`       |       `△`       |       `⧻△`        |         `⧻♭`         |
 |     Q     |    `count`     | :no_entry_sign: |  :no_entry_sign:  |     `count raze`     |
 |   Julia   |  `size(a, 1)`  |    `size(a)`    |    `ndims(a)`     |     `length(a)`      |
 |  MATLAB   |  `length(a)`   |    `size(a)`    |     `rank(a)`     |      `numel(a)`      |
@@ -143,7 +143,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 |   4   | :green_heart:  | [P1672 - Richest Customer Wealth](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1672_Richest_Customer_Wealth.md)          |                           [YouTube Solution](https://www.youtube.com/watch?v=MKb4WD6mioE)                            |
 |   5   | :green_heart:  | [P1822 - Sign of the Product of Array](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P1822_Sign_Product_Array.md)          |                           [YouTube Solution](https://www.youtube.com/watch?v=a7CSK7HNEWQ)                            |
 |   6   | :yellow_heart: | [P2319 - Check if Matrix Is X-Matrix](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P2319_Check_Matrix.md)                 |                           [YouTube Solution](https://www.youtube.com/watch?v=8ynsN4nJxzU)                            |
-|   7   | :yellow_heart: | [P0674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0674_LCIS.md)   |                                                          -                                                           |
+|   7   | :yellow_heart: | [P0674 - LCIS (Longest Continuous Increasing Subsequence)](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0674_LCIS.md)    |                                                          -                                                           |
 |   8   | :yellow_heart: | [P00064 - Maixmum Gap](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)                                     |                                                          -                                                           |
 |   9   | :yellow_heart: | [PWC198 P1 - Maximum Gap Count](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/pwc/PWC198_P1_Max_Gap_Count.md)                       |                                                          -                                                           |
 
