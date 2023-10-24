@@ -31,6 +31,7 @@ There are several sites that do these kinds of comparisons:
 |                            |  Language  | :heavy_dollar_sign: |                                     Main Website                                     |                                 Help / Docs                                 |                             Online REPL                              |
 | :------------------------: | :--------: | :-----------------: | :----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------: |
 |       :green_heart:        | Dyalog APL |                     |                        [dyalog.com](https://www.dyalog.com/)                         |                [Dyalog Help](https://help.dyalog.com/18.2/)                 |                    [TryAPL](https://tryapl.org/)                     |
+|       :yellow_heart:       |    Kap     |                     |         [kapdemo.dhsdevelopments.com](https://kapdemo.dhsdevelopments.com/)          |        [Kap Ref](https://kapdemo.dhsdevelopments.com/reference.html)        |  [Kap Interpreter](https://kapdemo.dhsdevelopments.com/clientweb2/)  |
 |       :green_heart:        |     J      |                     |                     [jsoftware.com](https://www.jsoftware.com/)                      |              [J NuVoc](https://code.jsoftware.com/wiki/NuVoc)               | [J Playground](https://jsoftware.github.io/j-playground/bin/html2/#) |
 |       :green_heart:        |    BQN     |                     |             [mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)              |         [BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)          |             [BQNPAD](https://bqnpad.mechanize.systems/)              |
 |       :green_heart:        |    Uiua    |                     |                          [uiua.org](https://www.uiua.org/)                           |                   [Uiua Docs](https://www.uiua.org/docs)                    |                 [UiuaPAD](https://www.uiua.org/pad)                  |
@@ -51,6 +52,7 @@ There are several sites that do these kinds of comparisons:
 
 \* Library, not an actual language
 * :green_heart: Main (APL-Family) Array Languages
+* :yellow_heart: Fringe (APL-Family) Array Languages
 * :blue_heart: Main (Non-APL-Family) Array Languages
 * :purple_heart: Fringe / Research Array Languages
 * :heartpulse: Array Compiler Backends / Array Libraries
@@ -72,6 +74,7 @@ There are several sites that do these kinds of comparisons:
 |           |        1        |        2        |        3        |   4   |   5    |
 | :-------: | :-------------: | :-------------: | :-------------: | :---: | :----: |
 |    APL    |  :green_heart:  |  1 (or `⎕IO`)   |    `LA`/`TA`    | `RL`  |  Row   |
+|    Kap    |  :green_heart:  |        0        |    `LA`/`TA`    | `RL`  |  Row   |
 |     J     |  :green_heart:  |        0        |      `LA`       | `RL`  |  Row   |
 |    BQN    |  :green_heart:  |        0        |      `LA`       | `RL`  |  Row   |
 |   Uiua    |  :green_heart:  |        0        |      `LA`       | `RL`  |  Row   |
@@ -88,14 +91,15 @@ There are several sites that do these kinds of comparisons:
 | ArrayFire | :no_entry_sign: |        0        |      `LA`       | `()`  | Column |
 |   MatX    | :no_entry_sign: |        0        |      `LA`       | `()`  |  Row   |
 
-6. Length of Array (Leading Axis)
-7. Shape of Array
-8. Rank of Array
-9. Number of Elements in Array
+1. Length of Array (Leading Axis)
+2. Shape of Array
+3. Rank of Array
+4. Number of Elements in Array
 
 |           |       6        |        7        |         8         |          9           |
 | :-------: | :------------: | :-------------: | :---------------: | :------------------: |
 |    APL    |      `≢`       |       `⍴`       |       `⍴⍴`        |        `×/⍴`         |
+|    Kap    |      `≢`       |       `⍴`       |       `⍴⍴`        |        `×/⍴`         |
 |     J     |      `#`       |       `$`       |       `$$`        |        `*/@$`        |
 |    BQN    |      `≠`       |       `≢`       |       `≢≢`        |        `×´≢`         |
 |   Uiua    |      `⧻`       |       `△`       |       `⧻△`        |         `⧻♭`         |
