@@ -8,6 +8,7 @@
 |           |                    Solution                    |                                     Link                                      |
 | :-------: | :--------------------------------------------: | :---------------------------------------------------------------------------: |
 |    APL    |         `maxDepth ← {⌈/+\-⌿'()'∘.=⍵}`          | [Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.apl) |
+|    Kap    |           `MaxDepth ⇐ ⌈/+\-⌿"()"∘.=`           |                                                                               |
 |     J     |      `maxDepth =. {{ >./+/\-/'()'=/y }}`       |                                                                               |
 |    BQN    |         ``MaxDepth ← ⌈´·+`·-˝"()"=⌜⊢``         | [Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.bqn) |
 |     Q     | `maxDepth: { max sums (-) over "()" =/:\: x }` |  [Link](https://github.com/codereport/LeetCode/blob/master/0210_Problem_1.q)  |

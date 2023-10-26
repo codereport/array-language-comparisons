@@ -7,6 +7,7 @@
 |           |            Solution             |                                                            Link                                                             |
 | :-------: | :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
 |    APL    |             `⌈/+/`              |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.apl)                        |
+|    Kap    |             `⌈/+/`              |                                                                                                                             |
 |     J     |          `[: >./ +/"1`          |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.ijs)                        |
 |    BQN    |            `⌈´+˝⎉1`             |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.bqn)                        |
 |   Uiua    |             `/↥≡/+`             |                                                                                                                             |
