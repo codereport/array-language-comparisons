@@ -91,10 +91,10 @@ There are several sites that do these kinds of comparisons:
 | ArrayFire | :no_entry_sign: |        0        |      `LA`       | `()`  | Column |
 |   MatX    | :no_entry_sign: |        0        |      `LA`       | `()`  |  Row   |
 
-1. Length of Array (Leading Axis)
-2. Shape of Array
-3. Rank of Array
-4. Number of Elements in Array
+6. Length of Array (Leading Axis)
+7. Shape of Array
+8. Rank of Array
+9. Number of Elements in Array
 
 |           |       6        |        7        |         8         |          9           |
 | :-------: | :------------: | :-------------: | :---------------: | :------------------: |
