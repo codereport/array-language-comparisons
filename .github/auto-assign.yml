@@ -1,0 +1,30 @@
+name: Auto Assign
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      # Handle Issues
+      - if: github.event_name == 'issues'
+        uses: pozil/auto-assign-issue@v2
+        with:
+          assignees: codereport
+          numOfAssignee: 1
+      
+      # Handle PRs
+      - if: github.event_name == 'pull_request'
+        uses: toshimaru/auto-author-assign@v2.1.1
+      - if: github.event_name == 'pull_request'
+        uses: kentaro-m/auto-assign-action@v1.2.5
+        with:
+          reviewers: codereport
+          numberOfReviewers: 1
