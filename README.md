@@ -28,27 +28,28 @@ There are several sites that do these kinds of comparisons:
 
 ### Language / Library Websites
 
-|       |  Language  | :heavy_dollar_sign: |                                     Main Website                                     |                                 Help / Docs                                 |                             Online REPL                              |
-| :---: | :--------: | :-----------------: | :----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------: |
-|   💚   | Dyalog APL |                     |                        [dyalog.com](https://www.dyalog.com/)                         |                [Dyalog Help](https://help.dyalog.com/18.2/)                 |                    [TryAPL](https://tryapl.org/)                     |
-|   💛   |    Kap     |                     |         [kapdemo.dhsdevelopments.com](https://kapdemo.dhsdevelopments.com/)          |        [Kap Ref](https://kapdemo.dhsdevelopments.com/reference.html)        |  [Kap Interpreter](https://kapdemo.dhsdevelopments.com/clientweb2/)  |
-|   💚   |     J      |                     |                     [jsoftware.com](https://www.jsoftware.com/)                      |              [J NuVoc](https://code.jsoftware.com/wiki/NuVoc)               | [J Playground](https://jsoftware.github.io/j-playground/bin/html2/#) |
-|   💚   |    BQN     |                     |             [mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)              |         [BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)          |             [BQNPAD](https://bqnpad.mechanize.systems/)              |
-|   💚   |    Uiua    |                     |                          [uiua.org](https://www.uiua.org/)                           |                   [Uiua Docs](https://www.uiua.org/docs)                    |                 [UiuaPAD](https://www.uiua.org/pad)                  |
-|   💚   |     Q      | :heavy_dollar_sign: |                       [code.kx.com/q](https://code.kx.com/q/)                        |           [Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)           |                                  ⛔                                   |
-|   💙   |   Julia    |                     |                       [julialang.org](https://julialang.org/)                        |               [Julia Docs](https://docs.julialang.org/en/v1/)               |          [Replit](https://julialang.org/learning/tryjulia/)          |
-|   💙   |   MATLAB   | :heavy_dollar_sign: | [mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html) |            [MATLAB Help](https://www.mathworks.com/help/matlab/)            |                         :heavy_dollar_sign:                          |
-|   💙   |   NumPy*   |                     |                           [numpy.org](https://numpy.org/)                            |                 [NumPy Docs](https://numpy.org/doc/stable/)                 |            [Replit](https://replit.com/languages/python3)            |
-|   💙   |     R      |                     |                     [r-project.org](https://www.r-project.org/)                      |                  [R Docs](https://www.rdocumentation.org/)                  |         [JDoodle](https://www.jdoodle.com/execute-r-online/)         |
-|   💜   |    Nial    |                     |           [nial-array-language.org](https://www.nial-array-language.org/)            | [Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html) |                     [TIO](https://tio.run/#Nial)                     |
-|   💜   |  Futhark   |                     |                    [futhark-lang.org](https://futhark-lang.org/)                     |             [Futhark Docs](https://futhark-lang.org/docs.html)              |                                  ⛔                                   |
-|   💜   |    Dex     |                     |  [github.com/google-research/dex-lang](https://github.com/google-research/dex-lang)  |       [InDex](https://google-research.github.io/dex-lang/index.html)        |                                  ⛔                                   |
-|   💜   |    Ivy     |                     |            [pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)            |     [Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)     |                                  ⛔                                   |
-|  💜💗   |    SaC     |                     |                      [sac-home.org](https://www.sac-home.org/)                       |               [SaC Docs](https://www.sac-home.org/docs:main)                |                                  ⛔                                   |
-|   💗   | ArrayFire* |                     |                       [arrayfire.com](https://arrayfire.com/)                        |                [ArrayFire Docs](https://arrayfire.org/docs/)                |                                  ⛔                                   |
-|   💗   |   MatX*    |                     |          [nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)           |                    [MatX API Ref](nvidia.github.io/MatX)                    |                                  ⛔                                   |
-|   💗   |   ATen*    |                     |                                          -                                           |               [ATen Docs](https://pytorch.org/cppdocs/#aten)                |                                  ⛔                                   |
-|   💗   |   Eigen*   |                     |                 [eigen.tuxfamily.org](https://eigen.tuxfamily.org/)                  |                [Eigen Dox](https://eigen.tuxfamily.org/dox/)                |                   [Godbolt](https://godbolt.org/)                    |
+|       |  Language  |   💲   |                                     Main Website                                     |                                 Help / Docs                                 |                             Online REPL                              |
+| :---: | :--------: | :---: | :----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------: |
+|   💚   | Dyalog APL |       |                        [dyalog.com](https://www.dyalog.com/)                         |                [Dyalog Help](https://help.dyalog.com/18.2/)                 |                    [TryAPL](https://tryapl.org/)                     |
+|   💛   |    Kap     |       |         [kapdemo.dhsdevelopments.com](https://kapdemo.dhsdevelopments.com/)          |        [Kap Ref](https://kapdemo.dhsdevelopments.com/reference.html)        |  [Kap Interpreter](https://kapdemo.dhsdevelopments.com/clientweb2/)  |
+|   💛   |  TinyAPL   |       |               [tinyapl.rubenverg.com](https://tinyapl.rubenverg.com/)                |      [TinAPL Primitives](https://tinyapl.rubenverg.com/docs/primitive)      |       [Online REPL](https://tinyapl.rubenverg.com/run/latest/)       |
+|   💚   |     J      |       |                     [jsoftware.com](https://www.jsoftware.com/)                      |              [J NuVoc](https://code.jsoftware.com/wiki/NuVoc)               | [J Playground](https://jsoftware.github.io/j-playground/bin/html2/#) |
+|   💚   |    BQN     |       |             [mlochbaum.github.io/BQN](https://mlochbaum.github.io/BQN/)              |         [BQN Docs](https://mlochbaum.github.io/BQN/doc/index.html)          |             [BQNPAD](https://bqnpad.mechanize.systems/)              |
+|   💚   |    Uiua    |       |                          [uiua.org](https://www.uiua.org/)                           |                   [Uiua Docs](https://www.uiua.org/docs)                    |                 [UiuaPAD](https://www.uiua.org/pad)                  |
+|   💚   |     Q      |   💲   |                       [code.kx.com/q](https://code.kx.com/q/)                        |           [Q Ref](https://code.kx.com/q4m3/A_Built-in_Functions/)           |                                  ⛔                                   |
+|   💙   |   Julia    |       |                       [julialang.org](https://julialang.org/)                        |               [Julia Docs](https://docs.julialang.org/en/v1/)               |          [Replit](https://julialang.org/learning/tryjulia/)          |
+|   💙   |   MATLAB   |   💲   | [mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html) |            [MATLAB Help](https://www.mathworks.com/help/matlab/)            |                                  💲                                   |
+|   💙   |   NumPy*   |       |                           [numpy.org](https://numpy.org/)                            |                 [NumPy Docs](https://numpy.org/doc/stable/)                 |            [Replit](https://replit.com/languages/python3)            |
+|   💙   |     R      |       |                     [r-project.org](https://www.r-project.org/)                      |                  [R Docs](https://www.rdocumentation.org/)                  |         [JDoodle](https://www.jdoodle.com/execute-r-online/)         |
+|   💜   |    Nial    |       |           [nial-array-language.org](https://www.nial-array-language.org/)            | [Nial Dictionary](https://www.nial-array-language.org/ndocs/NialDict2.html) |                     [TIO](https://tio.run/#Nial)                     |
+|   💜   |  Futhark   |       |                    [futhark-lang.org](https://futhark-lang.org/)                     |             [Futhark Docs](https://futhark-lang.org/docs.html)              |                                  ⛔                                   |
+|   💜   |    Dex     |       |  [github.com/google-research/dex-lang](https://github.com/google-research/dex-lang)  |       [InDex](https://google-research.github.io/dex-lang/index.html)        |                                  ⛔                                   |
+|   💜   |    Ivy     |       |            [pkg.go.dev/robpike.io/ivy](https://pkg.go.dev/robpike.io/ivy)            |     [Ivy Docs](https://pkg.go.dev/robpike.io/ivy#section-documentation)     |                                  ⛔                                   |
+|  💜💗   |    SaC     |       |                      [sac-home.org](https://www.sac-home.org/)                       |               [SaC Docs](https://www.sac-home.org/docs:main)                |                                  ⛔                                   |
+|   💗   | ArrayFire* |       |                       [arrayfire.com](https://arrayfire.com/)                        |                [ArrayFire Docs](https://arrayfire.org/docs/)                |                                  ⛔                                   |
+|   💗   |   MatX*    |       |          [nvidia.github.io/MatX](https://nvidia.github.io/MatX/index.html)           |                    [MatX API Ref](nvidia.github.io/MatX)                    |                                  ⛔                                   |
+|   💗   |   ATen*    |       |                                          -                                           |               [ATen Docs](https://pytorch.org/cppdocs/#aten)                |                                  ⛔                                   |
+|   💗   |   Eigen*   |       |                 [eigen.tuxfamily.org](https://eigen.tuxfamily.org/)                  |                [Eigen Dox](https://eigen.tuxfamily.org/dox/)                |                   [Godbolt](https://godbolt.org/)                    |
 
 \* Library, not an actual language
 * 💚 Main (APL-Family) Array Languages
@@ -75,6 +76,7 @@ There are several sites that do these kinds of comparisons:
 | :-------: | :---: | :-------------: | :-------: | :---: | :----: |
 |    APL    |   💚   |  1 (or `⎕IO`)   | `LA`/`TA` | `RL`  |  Row   |
 |    Kap    |   💚   |        0        | `LA`/`TA` | `RL`  |  Row   |
+|  TinyAPL  |   💚   |        0        |   `LA`    | `RL`  |  Row   |
 |     J     |   💚   |        0        |   `LA`    | `RL`  |  Row   |
 |    BQN    |   💚   |        0        |   `LA`    | `RL`  |  Row   |
 |   Uiua    |   💚   |        0        |   `LA`    | `RL`  |  Row   |
@@ -100,6 +102,7 @@ There are several sites that do these kinds of comparisons:
 | :-------: | :------------: | :----------: | :---------------: | :------------------: |
 |    APL    |      `≢`       |     `⍴`      |       `⍴⍴`        |        `×/⍴`         |
 |    Kap    |      `≢`       |     `⍴`      |       `⍴⍴`        |        `×/⍴`         |
+|  TinyAPL  |      `≢`       |     `⍴`      |        `ϼ`        |        `×⍆⍴`         |
 |     J     |      `#`       |     `$`      |       `$$`        |        `*/@$`        |
 |    BQN    |      `≠`       |     `≢`      |       `≢≢`        |        `×´≢`         |
 |   Uiua    |      `⧻`       |     `△`      |       `⧻△`        |         `⧻♭`         |
@@ -160,6 +163,7 @@ Note that even when using `rlwrap`, some of the limitations will remain (such as
 | :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |    APL    |   💚   |   ⛔   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |
 |    Kap    |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |
+|  TinyAPL  |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |
 |     J     |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |
 |    BQN    |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |
 |   Uiua    |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |   💚   |

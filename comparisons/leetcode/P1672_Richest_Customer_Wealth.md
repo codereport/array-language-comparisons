@@ -8,8 +8,9 @@
 | :-------: | :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
 |    APL    |             `⌈/+/`              |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.apl)                        |
 |    Kap    |             `⌈/+/`              |                                                                                                                             |
+|  TinyAPL  |           `⦅⌈⍆⋄+⍆◡⦆`            |
 |     J     |          `[: >./ +/"1`          |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.ijs)                        |
-|    BQN    |            `⌈´+˝⎉1`             |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.bqn)                        |
+|    BQN    |             `⌈´+˝˘`             |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.bqn)                        |
 |   Uiua    |             `/↥≡/+`             |                                                                                                                             |
 |     Q     |        `max sum each x`         |                                                                                                                             |
 |   Julia   |  `sum(x, dims=2) \|> maximum`   |                        [Link](https://github.com/codereport/LeetCode/blob/master/0217_Problem_1.jl)                         |

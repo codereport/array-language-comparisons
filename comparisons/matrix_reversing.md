@@ -5,8 +5,10 @@
 |           |           Reverse In Memory            |                        Reverse Columns                         |              Reverse Rows              |
 | :-------: | :------------------------------------: | :------------------------------------------------------------: | :------------------------------------: |
 |    APL    |        ravel, reverse, reshape         |                              `⊖`                               |             `⌽` <br> `⊖⍤1`             |
+|    Kap    |                 `⊖⍢,`                  |                              `⊖`                               |                  `⊖◡`                  |
+|  TinyAPL  |                 `⊖⍢,`                  |                              `⊖`                               |                 `⊖⍤1`                  |
 |     J     |        ravel, reverse, reshape         |                             `\|.`                              |                `\|."1`                 |
-|    BQN    |                 `⌽⌾⥊`                  |                              `⌽`                               |             `⌽˘`<br>`⌽⎉1`              |
+|    BQN    |                 `⌽⌾⥊`                  |                              `⌽`                               |              `⌽˘`<br>`⌽˘`              |
 |   Uiua    |                 `⍜⇌♭`*                 |                              `⇌`                               |                  `≡⇌`                  |
 |     Q     |       deshape, reverse, reshape        |                           `reverse`                            |             `reverse each`             |
 |   Julia   | `reverse(a)` <br> `reverse(a, dims=:)` |                      `reverse(a, dims=1)`                      |          `reverse(a, dims=2)`          |
@@ -95,7 +97,7 @@
   8 7 6  
         ┘
    # or
-   ⌽⎉1 a
+   ⌽˘ a
 ┌─       
 ╵ 2 1 0  
   5 4 3  

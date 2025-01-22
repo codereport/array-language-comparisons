@@ -8,6 +8,7 @@
 | :-------: | :-----------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 |    APL    |                      `+/0>,`                      |                    [Link](https://github.com/codereport/LeetCode/blob/master/0176_Problem_1.apl)                    |
 |    Kap    |                      `+/,0>`                      |                                                                                                                     |
+|  TinyAPL  |                   `⦅+⍆⋄0⋄>⋄,⦆`                    |
 |     J     |                     `[:+/0>,`                     |                    [Link](https://github.com/codereport/LeetCode/blob/master/0176_Problem_1.ijs)                    |
 |    BQN    |                      `+´0>⥊`                      |                                                                                                                     |
 |   Uiua    |                      `/+<0♭`                      |
