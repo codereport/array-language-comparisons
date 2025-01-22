@@ -6,6 +6,7 @@
 | :-------: | :----------------------------------------------------: | :---------------------------------------------------------------------------: |
 |    APL    | `lcis ← ⌈/≢¨((1,2≥/⊢)⊂⊢)`<br>`lcis ← {1⌈1+⌈/≢¨⊆⍨2</⍵}` | [Link](https://github.com/codereport/LeetCode/blob/master/0049_Problem_1.apl) |
 |    Kap    |                  `Lcis ⇐ 1+⌈/≢¨⊂⍨2</`                  |                                                                               |
+|  TinyAPL  |                `lcis ← {1+⌈⍆≢¨⊆⍨2<⍆↡⍵}`                |
 |     J     |        `lcis =. {{ 1 + >./ (#;._1) 0,2</\ y }}`        | [Link](https://github.com/codereport/LeetCode/blob/master/0049_Problem_1.ijs) |
 |    BQN    |              `LCIS ← {1+⌈´(⊢×+)``<´˘2↕𝕩}`              |    [Link](https://github.com/codereport/katas/blob/main/Top10/03_lcis.bqn)    |
 |   Uiua    |                `Lcis ← +1/↥\(×+,)≡/>◫2`                |                                                                               |

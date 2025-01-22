@@ -8,6 +8,7 @@
 | :-------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 |    APL    |                     `checkMatrix ← {(1⌊⍵)≡(⊖⌈⊢)∘.=⍨⍳≢⍵}`                      |                    [Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.apl)                    |
 |    Kap    |                       `CheckMatrix ⇐ {(1⌊⍵)≡⌽⍛⌈=⌻⍨⍳≢⍵}`                       |                                                                                                                     |
+|  TinyAPL  |                       `checkMatrix ← {(1⌊⍵)≡⊖⊸⌈=⊞⍨⍳≢⍵}`                       |
 |     J     |                `checkMatrix =. {{ (1<.y)-:(\|.>.])=/~i.#y }}`                 |                    [Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.ijs)                    |
 |    BQN    |                       `CheckMatrix ← {(1⌊𝕩)≡⌽⊸⌈=⌜˜↕≠𝕩}`                       |                    [Link](https://github.com/codereport/LeetCode/blob/master/0299_Problem_1.bqn)                    |
 |   Uiua    |                         `CheckMatrix ← ≅↧1∶↥⇌.⊞=.⇡⧻.`                         |                                                                                                                     |
