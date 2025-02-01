@@ -104,7 +104,7 @@ There are several sites that do these kinds of comparisons:
 |    Kap    |      `≢`       |     `⍴`      |       `⍴⍴`        |        `×/⍴`         |
 |  TinyAPL  |      `≢`       |     `⍴`      |        `ϼ`        |        `×⍆⍴`         |
 |     J     |      `#`       |     `$`      |       `$$`        |        `*/@$`        |
-|    BQN    |      `≠`       |     `≢`      |       `≢≢`        |        `×´≢`         |
+|    BQN    |      `≠`       |     `≢`      |        `=`        |        `×´≢`         |
 |   Uiua    |      `⧻`       |     `△`      |       `⧻△`        |         `⧻♭`         |
 |     Q     |    `count`     |      ⛔       |         ⛔         |     `count raze`     |
 |   Julia   |  `size(a, 1)`  |  `size(a)`   |    `ndims(a)`     |     `length(a)`      |
